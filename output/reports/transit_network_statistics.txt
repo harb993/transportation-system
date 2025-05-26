@@ -1,0 +1,16 @@
+Cairo Transit Network Statistics
+Generated on: 2025-05-19 03:17:50
+
+Network Summary:
+- Total Stations: 15
+- Total Facilities: 10
+- Isolated Nodes: 6
+- Total Population Served: 0
+- Daily Passengers: 14,854,000
+  * Metro: 14,000,000
+  * Bus: 854,000
+
+Transit Infrastructure:
+- Metro Lines: 3
+- Bus Routes: 10
+- Total Buses: 611

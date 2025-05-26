@@ -1,0 +1,2286 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_50bd15d24a66f3718435c4dfbcc50b37 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_50bd15d24a66f3718435c4dfbcc50b37" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_50bd15d24a66f3718435c4dfbcc50b37 = L.map(
+                "map_50bd15d24a66f3718435c4dfbcc50b37",
+                {
+                    center: [30.05, 31.25],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d0a3ba48ccb52dfd454729fd881b9d2e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d0a3ba48ccb52dfd454729fd881b9d2e.addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var marker_642bd52786be3d99eb43ff07c2ffb9e5 = L.marker(
+                [29.96, 31.25],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_a2385caf5d4a9d35fbe8858b6e650049 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cb86ba849170be4c6636bdc65fa2398f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c0a36de6fc3f4d005d13c5b853640311 = $(`<div id="html_c0a36de6fc3f4d005d13c5b853640311" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Maadi</h4>         <b>Type:</b> Residential<br>         <b>Category:</b> neighborhood<br>         <b>ID:</b> 1     </div>     </div>`)[0];
+                popup_cb86ba849170be4c6636bdc65fa2398f.setContent(html_c0a36de6fc3f4d005d13c5b853640311);
+            
+        
+
+        marker_642bd52786be3d99eb43ff07c2ffb9e5.bindPopup(popup_cb86ba849170be4c6636bdc65fa2398f)
+        ;
+
+        
+    
+    
+            marker_642bd52786be3d99eb43ff07c2ffb9e5.bindTooltip(
+                `<div>
+                     Maadi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_642bd52786be3d99eb43ff07c2ffb9e5.setIcon(icon_a2385caf5d4a9d35fbe8858b6e650049);
+            
+    
+            var marker_5142cc1cc09f846b94310154e8551be8 = L.marker(
+                [30.06, 31.34],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_d86851078963a8e31fe7c8d537a5b52f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d335db42f8550815f218fbdb19289b5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6b94f6b49737c23dd30d9d1a42ae186f = $(`<div id="html_6b94f6b49737c23dd30d9d1a42ae186f" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Nasr City</h4>         <b>Type:</b> Mixed<br>         <b>Category:</b> neighborhood<br>         <b>ID:</b> 2     </div>     </div>`)[0];
+                popup_6d335db42f8550815f218fbdb19289b5.setContent(html_6b94f6b49737c23dd30d9d1a42ae186f);
+            
+        
+
+        marker_5142cc1cc09f846b94310154e8551be8.bindPopup(popup_6d335db42f8550815f218fbdb19289b5)
+        ;
+
+        
+    
+    
+            marker_5142cc1cc09f846b94310154e8551be8.bindTooltip(
+                `<div>
+                     Nasr City
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5142cc1cc09f846b94310154e8551be8.setIcon(icon_d86851078963a8e31fe7c8d537a5b52f);
+            
+    
+            var marker_9708d73fd38a21066e9cc2d17c4acf2a = L.marker(
+                [30.04, 31.24],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_444232cba60bddd284574c743db0039c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a72779fc8a269170b3bc9fccc164571b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5a9937b3f0044e93d07c6ca686b8c59e = $(`<div id="html_5a9937b3f0044e93d07c6ca686b8c59e" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Downtown Cairo</h4>         <b>Type:</b> Business<br>         <b>Category:</b> neighborhood<br>         <b>ID:</b> 3     </div>     </div>`)[0];
+                popup_a72779fc8a269170b3bc9fccc164571b.setContent(html_5a9937b3f0044e93d07c6ca686b8c59e);
+            
+        
+
+        marker_9708d73fd38a21066e9cc2d17c4acf2a.bindPopup(popup_a72779fc8a269170b3bc9fccc164571b)
+        ;
+
+        
+    
+    
+            marker_9708d73fd38a21066e9cc2d17c4acf2a.bindTooltip(
+                `<div>
+                     Downtown Cairo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9708d73fd38a21066e9cc2d17c4acf2a.setIcon(icon_444232cba60bddd284574c743db0039c);
+            
+    
+            var marker_5f930b88e5fa2d27d429875602f1a9f4 = L.marker(
+                [30.03, 31.47],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_abe53db018216189968d5bd011408b5f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4b33e1e33a32dc02a4c8ad1a5a24cafb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bac139fee82fa88fe71f472d4d017715 = $(`<div id="html_bac139fee82fa88fe71f472d4d017715" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>New Cairo</h4>         <b>Type:</b> Residential<br>         <b>Category:</b> neighborhood<br>         <b>ID:</b> 4     </div>     </div>`)[0];
+                popup_4b33e1e33a32dc02a4c8ad1a5a24cafb.setContent(html_bac139fee82fa88fe71f472d4d017715);
+            
+        
+
+        marker_5f930b88e5fa2d27d429875602f1a9f4.bindPopup(popup_4b33e1e33a32dc02a4c8ad1a5a24cafb)
+        ;
+
+        
+    
+    
+            marker_5f930b88e5fa2d27d429875602f1a9f4.bindTooltip(
+                `<div>
+                     New Cairo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5f930b88e5fa2d27d429875602f1a9f4.setIcon(icon_abe53db018216189968d5bd011408b5f);
+            
+    
+            var marker_ad0e048b97c1bb4f2cbff7ad6fc484de = L.marker(
+                [30.09, 31.32],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_e835a238b04966ca5c4c2843adaa71ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7c3c15b905891b3c4d6a873a25a350c6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5ec936b4e2463aef4934930881705117 = $(`<div id="html_5ec936b4e2463aef4934930881705117" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Heliopolis</h4>         <b>Type:</b> Mixed<br>         <b>Category:</b> neighborhood<br>         <b>ID:</b> 5     </div>     </div>`)[0];
+                popup_7c3c15b905891b3c4d6a873a25a350c6.setContent(html_5ec936b4e2463aef4934930881705117);
+            
+        
+
+        marker_ad0e048b97c1bb4f2cbff7ad6fc484de.bindPopup(popup_7c3c15b905891b3c4d6a873a25a350c6)
+        ;
+
+        
+    
+    
+            marker_ad0e048b97c1bb4f2cbff7ad6fc484de.bindTooltip(
+                `<div>
+                     Heliopolis
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ad0e048b97c1bb4f2cbff7ad6fc484de.setIcon(icon_e835a238b04966ca5c4c2843adaa71ff);
+            
+    
+            var marker_1b4fe1467f87ce23ebccecd311813a59 = L.marker(
+                [30.06, 31.22],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_207cac9bd16c6f1cec87f21ad0715a58 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_89d886c3d1853cc28631248cabaa9334 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_011dddee13bd772d89033955e1f40221 = $(`<div id="html_011dddee13bd772d89033955e1f40221" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Zamalek</h4>         <b>Type:</b> Residential<br>         <b>Category:</b> neighborhood<br>         <b>ID:</b> 6     </div>     </div>`)[0];
+                popup_89d886c3d1853cc28631248cabaa9334.setContent(html_011dddee13bd772d89033955e1f40221);
+            
+        
+
+        marker_1b4fe1467f87ce23ebccecd311813a59.bindPopup(popup_89d886c3d1853cc28631248cabaa9334)
+        ;
+
+        
+    
+    
+            marker_1b4fe1467f87ce23ebccecd311813a59.bindTooltip(
+                `<div>
+                     Zamalek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1b4fe1467f87ce23ebccecd311813a59.setIcon(icon_207cac9bd16c6f1cec87f21ad0715a58);
+            
+    
+            var marker_b81f0f0707f40fc1491249094a821176 = L.marker(
+                [29.93, 30.98],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_2688782536a37e0aed482479b0d21ecf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1640785ad22c23982b6f17fb6d8b01b3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7f0763e78957cec42f8689db7f9569ea = $(`<div id="html_7f0763e78957cec42f8689db7f9569ea" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>6th October City</h4>         <b>Type:</b> Mixed<br>         <b>Category:</b> neighborhood<br>         <b>ID:</b> 7     </div>     </div>`)[0];
+                popup_1640785ad22c23982b6f17fb6d8b01b3.setContent(html_7f0763e78957cec42f8689db7f9569ea);
+            
+        
+
+        marker_b81f0f0707f40fc1491249094a821176.bindPopup(popup_1640785ad22c23982b6f17fb6d8b01b3)
+        ;
+
+        
+    
+    
+            marker_b81f0f0707f40fc1491249094a821176.bindTooltip(
+                `<div>
+                     6th October City
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b81f0f0707f40fc1491249094a821176.setIcon(icon_2688782536a37e0aed482479b0d21ecf);
+            
+    
+            var marker_73b79d87e3dd0c918fc3dec72f0d315a = L.marker(
+                [29.99, 31.21],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_1fa9ade95ac32cf70b4d66642d5c9ff0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1e7d4d2e42863d68a4d5abfa33978a4c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_379b8e813ce0f1ff4b5bfcc654af8565 = $(`<div id="html_379b8e813ce0f1ff4b5bfcc654af8565" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Giza</h4>         <b>Type:</b> Mixed<br>         <b>Category:</b> neighborhood<br>         <b>ID:</b> 8     </div>     </div>`)[0];
+                popup_1e7d4d2e42863d68a4d5abfa33978a4c.setContent(html_379b8e813ce0f1ff4b5bfcc654af8565);
+            
+        
+
+        marker_73b79d87e3dd0c918fc3dec72f0d315a.bindPopup(popup_1e7d4d2e42863d68a4d5abfa33978a4c)
+        ;
+
+        
+    
+    
+            marker_73b79d87e3dd0c918fc3dec72f0d315a.bindTooltip(
+                `<div>
+                     Giza
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_73b79d87e3dd0c918fc3dec72f0d315a.setIcon(icon_1fa9ade95ac32cf70b4d66642d5c9ff0);
+            
+    
+            var marker_3e5242445a07fd1be8ac574418f3d98a = L.marker(
+                [30.05, 31.2],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_bf5fb74af334eba036f12bb9735b6205 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6cac6ca97475d95f2f52e492b44f62f3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_16bf4becca1e71c8010f182422ed863c = $(`<div id="html_16bf4becca1e71c8010f182422ed863c" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Mohandessin</h4>         <b>Type:</b> Business<br>         <b>Category:</b> neighborhood<br>         <b>ID:</b> 9     </div>     </div>`)[0];
+                popup_6cac6ca97475d95f2f52e492b44f62f3.setContent(html_16bf4becca1e71c8010f182422ed863c);
+            
+        
+
+        marker_3e5242445a07fd1be8ac574418f3d98a.bindPopup(popup_6cac6ca97475d95f2f52e492b44f62f3)
+        ;
+
+        
+    
+    
+            marker_3e5242445a07fd1be8ac574418f3d98a.bindTooltip(
+                `<div>
+                     Mohandessin
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3e5242445a07fd1be8ac574418f3d98a.setIcon(icon_bf5fb74af334eba036f12bb9735b6205);
+            
+    
+            var marker_0f2852932af10beac30cb3eaea04cf94 = L.marker(
+                [30.03, 31.21],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_96b4eeef195a5b4ced1f2dd2f3f8c1c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_84222f53c35ea9b8076d325428409387 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d865ac72ed4abfac2ef6ab68b4771bf8 = $(`<div id="html_d865ac72ed4abfac2ef6ab68b4771bf8" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Dokki</h4>         <b>Type:</b> Mixed<br>         <b>Category:</b> neighborhood<br>         <b>ID:</b> 10     </div>     </div>`)[0];
+                popup_84222f53c35ea9b8076d325428409387.setContent(html_d865ac72ed4abfac2ef6ab68b4771bf8);
+            
+        
+
+        marker_0f2852932af10beac30cb3eaea04cf94.bindPopup(popup_84222f53c35ea9b8076d325428409387)
+        ;
+
+        
+    
+    
+            marker_0f2852932af10beac30cb3eaea04cf94.bindTooltip(
+                `<div>
+                     Dokki
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0f2852932af10beac30cb3eaea04cf94.setIcon(icon_96b4eeef195a5b4ced1f2dd2f3f8c1c0);
+            
+    
+            var marker_58351b926bbe4b30e215ddf8d85c757f = L.marker(
+                [30.11, 31.24],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_be1c8fa164f3d4d992245c2a9f29b965 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b40b620b6024ccf6ed9fa241b3c1d49b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3efb033d6082cc5ed8a794405b4c4ef6 = $(`<div id="html_3efb033d6082cc5ed8a794405b4c4ef6" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Shubra</h4>         <b>Type:</b> Residential<br>         <b>Category:</b> neighborhood<br>         <b>ID:</b> 11     </div>     </div>`)[0];
+                popup_b40b620b6024ccf6ed9fa241b3c1d49b.setContent(html_3efb033d6082cc5ed8a794405b4c4ef6);
+            
+        
+
+        marker_58351b926bbe4b30e215ddf8d85c757f.bindPopup(popup_b40b620b6024ccf6ed9fa241b3c1d49b)
+        ;
+
+        
+    
+    
+            marker_58351b926bbe4b30e215ddf8d85c757f.bindTooltip(
+                `<div>
+                     Shubra
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_58351b926bbe4b30e215ddf8d85c757f.setIcon(icon_be1c8fa164f3d4d992245c2a9f29b965);
+            
+    
+            var marker_5bc2da483b1c6829dcfcb9557081780f = L.marker(
+                [29.85, 31.33],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_473b5d9eccef1d5f8f66a83865d42e39 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_19f56868e2389593ef05ea17847d8135 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ca27f1668bbaa4286951e450d8d816ef = $(`<div id="html_ca27f1668bbaa4286951e450d8d816ef" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Helwan</h4>         <b>Type:</b> Industrial<br>         <b>Category:</b> neighborhood<br>         <b>ID:</b> 12     </div>     </div>`)[0];
+                popup_19f56868e2389593ef05ea17847d8135.setContent(html_ca27f1668bbaa4286951e450d8d816ef);
+            
+        
+
+        marker_5bc2da483b1c6829dcfcb9557081780f.bindPopup(popup_19f56868e2389593ef05ea17847d8135)
+        ;
+
+        
+    
+    
+            marker_5bc2da483b1c6829dcfcb9557081780f.bindTooltip(
+                `<div>
+                     Helwan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5bc2da483b1c6829dcfcb9557081780f.setIcon(icon_473b5d9eccef1d5f8f66a83865d42e39);
+            
+    
+            var marker_f27f35e1215c33f4acdbfc778958dc03 = L.marker(
+                [30.02, 31.8],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_3e19de2acaf853f2cfca9eac98033e7e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b9e0c868f8a47368aaeb4487ac206f67 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2e365dd70da006e63961f4fc3e746512 = $(`<div id="html_2e365dd70da006e63961f4fc3e746512" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>New Administrative Capital</h4>         <b>Type:</b> Government<br>         <b>Category:</b> neighborhood<br>         <b>ID:</b> 13     </div>     </div>`)[0];
+                popup_b9e0c868f8a47368aaeb4487ac206f67.setContent(html_2e365dd70da006e63961f4fc3e746512);
+            
+        
+
+        marker_f27f35e1215c33f4acdbfc778958dc03.bindPopup(popup_b9e0c868f8a47368aaeb4487ac206f67)
+        ;
+
+        
+    
+    
+            marker_f27f35e1215c33f4acdbfc778958dc03.bindTooltip(
+                `<div>
+                     New Administrative Capital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f27f35e1215c33f4acdbfc778958dc03.setIcon(icon_3e19de2acaf853f2cfca9eac98033e7e);
+            
+    
+            var marker_f7ed6dfd8e1f1de42249a03bb7664758 = L.marker(
+                [30.06, 31.49],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_793dc9de413895015ce78d7e70edf280 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e749da1b9653d714a3a393b79a6c4e27 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_31b5f0063ba9bc50f4b41775047a00d9 = $(`<div id="html_31b5f0063ba9bc50f4b41775047a00d9" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Al Rehab</h4>         <b>Type:</b> Residential<br>         <b>Category:</b> neighborhood<br>         <b>ID:</b> 14     </div>     </div>`)[0];
+                popup_e749da1b9653d714a3a393b79a6c4e27.setContent(html_31b5f0063ba9bc50f4b41775047a00d9);
+            
+        
+
+        marker_f7ed6dfd8e1f1de42249a03bb7664758.bindPopup(popup_e749da1b9653d714a3a393b79a6c4e27)
+        ;
+
+        
+    
+    
+            marker_f7ed6dfd8e1f1de42249a03bb7664758.bindTooltip(
+                `<div>
+                     Al Rehab
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f7ed6dfd8e1f1de42249a03bb7664758.setIcon(icon_793dc9de413895015ce78d7e70edf280);
+            
+    
+            var marker_6fe02233b6f2c11a061b6199c27e23ca = L.marker(
+                [30.01, 30.94],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_3b2e0288c911e5f2676fbdac875f0a12 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_51da643156fd111938bbc04889a70d06 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_822388ccd865e220dce4ac0b91984dba = $(`<div id="html_822388ccd865e220dce4ac0b91984dba" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Sheikh Zayed</h4>         <b>Type:</b> Residential<br>         <b>Category:</b> neighborhood<br>         <b>ID:</b> 15     </div>     </div>`)[0];
+                popup_51da643156fd111938bbc04889a70d06.setContent(html_822388ccd865e220dce4ac0b91984dba);
+            
+        
+
+        marker_6fe02233b6f2c11a061b6199c27e23ca.bindPopup(popup_51da643156fd111938bbc04889a70d06)
+        ;
+
+        
+    
+    
+            marker_6fe02233b6f2c11a061b6199c27e23ca.bindTooltip(
+                `<div>
+                     Sheikh Zayed
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6fe02233b6f2c11a061b6199c27e23ca.setIcon(icon_3b2e0288c911e5f2676fbdac875f0a12);
+            
+    
+            var marker_99dffe00a1b6f89a4e5c4ccace0694a8 = L.marker(
+                [30.11, 31.41],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_c4b57e9f8336f6da7c64c8b44e67e4af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d7c6fe1182a675e64764fec4173479f7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_13ab45b8cd78190b66a998cb1318c27f = $(`<div id="html_13ab45b8cd78190b66a998cb1318c27f" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Cairo International Airport</h4>         <b>Type:</b> Airport<br>         <b>Category:</b> facility<br>         <b>ID:</b> F1     </div>     </div>`)[0];
+                popup_d7c6fe1182a675e64764fec4173479f7.setContent(html_13ab45b8cd78190b66a998cb1318c27f);
+            
+        
+
+        marker_99dffe00a1b6f89a4e5c4ccace0694a8.bindPopup(popup_d7c6fe1182a675e64764fec4173479f7)
+        ;
+
+        
+    
+    
+            marker_99dffe00a1b6f89a4e5c4ccace0694a8.bindTooltip(
+                `<div>
+                     Cairo International Airport
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_99dffe00a1b6f89a4e5c4ccace0694a8.setIcon(icon_c4b57e9f8336f6da7c64c8b44e67e4af);
+            
+    
+            var marker_276723c2ec18829824f4c0b8e57e8c74 = L.marker(
+                [30.06, 31.25],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_845532d9379d910f6b3c6b3027570f3d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_93ae3f698e3928b50a0f158541461fdf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6881de1e65e4081bed1a83f541738607 = $(`<div id="html_6881de1e65e4081bed1a83f541738607" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Ramses Railway Station</h4>         <b>Type:</b> Transit Hub<br>         <b>Category:</b> facility<br>         <b>ID:</b> F2     </div>     </div>`)[0];
+                popup_93ae3f698e3928b50a0f158541461fdf.setContent(html_6881de1e65e4081bed1a83f541738607);
+            
+        
+
+        marker_276723c2ec18829824f4c0b8e57e8c74.bindPopup(popup_93ae3f698e3928b50a0f158541461fdf)
+        ;
+
+        
+    
+    
+            marker_276723c2ec18829824f4c0b8e57e8c74.bindTooltip(
+                `<div>
+                     Ramses Railway Station
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_276723c2ec18829824f4c0b8e57e8c74.setIcon(icon_845532d9379d910f6b3c6b3027570f3d);
+            
+    
+            var marker_cd4309c82ff0d63227619ff9db8b618e = L.marker(
+                [30.03, 31.21],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_23c016953734679fc134b5f37ec3b0e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dfcf8fdbd35a1fd2a9bdf3c93de53119 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4e94d6b9162a0767954923e9ca7f0dbf = $(`<div id="html_4e94d6b9162a0767954923e9ca7f0dbf" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Cairo University</h4>         <b>Type:</b> Education<br>         <b>Category:</b> facility<br>         <b>ID:</b> F3     </div>     </div>`)[0];
+                popup_dfcf8fdbd35a1fd2a9bdf3c93de53119.setContent(html_4e94d6b9162a0767954923e9ca7f0dbf);
+            
+        
+
+        marker_cd4309c82ff0d63227619ff9db8b618e.bindPopup(popup_dfcf8fdbd35a1fd2a9bdf3c93de53119)
+        ;
+
+        
+    
+    
+            marker_cd4309c82ff0d63227619ff9db8b618e.bindTooltip(
+                `<div>
+                     Cairo University
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cd4309c82ff0d63227619ff9db8b618e.setIcon(icon_23c016953734679fc134b5f37ec3b0e3);
+            
+    
+            var marker_ac410aff43d8385f79f63da10acedb6b = L.marker(
+                [30.05, 31.26],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_845e8dadd97c1562a45aac5ef7a3ac72 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4ac2cd866691e7a4ff58985b53e5dcac = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c40f7f0758c4fa1d870367ab194daa0e = $(`<div id="html_c40f7f0758c4fa1d870367ab194daa0e" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Al-Azhar University</h4>         <b>Type:</b> Education<br>         <b>Category:</b> facility<br>         <b>ID:</b> F4     </div>     </div>`)[0];
+                popup_4ac2cd866691e7a4ff58985b53e5dcac.setContent(html_c40f7f0758c4fa1d870367ab194daa0e);
+            
+        
+
+        marker_ac410aff43d8385f79f63da10acedb6b.bindPopup(popup_4ac2cd866691e7a4ff58985b53e5dcac)
+        ;
+
+        
+    
+    
+            marker_ac410aff43d8385f79f63da10acedb6b.bindTooltip(
+                `<div>
+                     Al-Azhar University
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ac410aff43d8385f79f63da10acedb6b.setIcon(icon_845e8dadd97c1562a45aac5ef7a3ac72);
+            
+    
+            var marker_d744178134fc765376e86ac194b542fb = L.marker(
+                [30.05, 31.23],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_ebfbfac46c63969dce21f945a564ff3b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e7fc8a1574d6c05ecc003f091a1cf03c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8eef0fa13ed9279f148aa598aa33e067 = $(`<div id="html_8eef0fa13ed9279f148aa598aa33e067" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Egyptian Museum</h4>         <b>Type:</b> Tourism<br>         <b>Category:</b> facility<br>         <b>ID:</b> F5     </div>     </div>`)[0];
+                popup_e7fc8a1574d6c05ecc003f091a1cf03c.setContent(html_8eef0fa13ed9279f148aa598aa33e067);
+            
+        
+
+        marker_d744178134fc765376e86ac194b542fb.bindPopup(popup_e7fc8a1574d6c05ecc003f091a1cf03c)
+        ;
+
+        
+    
+    
+            marker_d744178134fc765376e86ac194b542fb.bindTooltip(
+                `<div>
+                     Egyptian Museum
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d744178134fc765376e86ac194b542fb.setIcon(icon_ebfbfac46c63969dce21f945a564ff3b);
+            
+    
+            var marker_4b464416d584de2ec04aa6139ea62dd8 = L.marker(
+                [30.07, 31.3],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_dc2731866916be188239ac0601903d83 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_082729ed7a96d9019cb59fcf5f343900 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3fea73aedefedd768a0e5b2260ad90d1 = $(`<div id="html_3fea73aedefedd768a0e5b2260ad90d1" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Cairo International Stadium</h4>         <b>Type:</b> Sports<br>         <b>Category:</b> facility<br>         <b>ID:</b> F6     </div>     </div>`)[0];
+                popup_082729ed7a96d9019cb59fcf5f343900.setContent(html_3fea73aedefedd768a0e5b2260ad90d1);
+            
+        
+
+        marker_4b464416d584de2ec04aa6139ea62dd8.bindPopup(popup_082729ed7a96d9019cb59fcf5f343900)
+        ;
+
+        
+    
+    
+            marker_4b464416d584de2ec04aa6139ea62dd8.bindTooltip(
+                `<div>
+                     Cairo International Stadium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4b464416d584de2ec04aa6139ea62dd8.setIcon(icon_dc2731866916be188239ac0601903d83);
+            
+    
+            var marker_d1ed8ad4e0b3ee56f59fad50654222f1 = L.marker(
+                [30.07, 30.97],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_212f1fd4ca82d8520ed4d66edbf15e80 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "briefcase",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_da814d9aed75da1a52dd61e55613b14c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f0c0e2b964f80840adec8823ca661dbd = $(`<div id="html_f0c0e2b964f80840adec8823ca661dbd" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Smart Village</h4>         <b>Type:</b> Business<br>         <b>Category:</b> facility<br>         <b>ID:</b> F7     </div>     </div>`)[0];
+                popup_da814d9aed75da1a52dd61e55613b14c.setContent(html_f0c0e2b964f80840adec8823ca661dbd);
+            
+        
+
+        marker_d1ed8ad4e0b3ee56f59fad50654222f1.bindPopup(popup_da814d9aed75da1a52dd61e55613b14c)
+        ;
+
+        
+    
+    
+            marker_d1ed8ad4e0b3ee56f59fad50654222f1.bindTooltip(
+                `<div>
+                     Smart Village
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d1ed8ad4e0b3ee56f59fad50654222f1.setIcon(icon_212f1fd4ca82d8520ed4d66edbf15e80);
+            
+    
+            var marker_cb8f8ecdb8e58e8113b196f05ebe4cdb = L.marker(
+                [30.03, 31.4],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_fd4c8db7025fee88bc5693c20f82bbca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_82983e077fc8d055193105574435ca39 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_64674bd2944fbba7be4c005ca19ab2e6 = $(`<div id="html_64674bd2944fbba7be4c005ca19ab2e6" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Cairo Festival City</h4>         <b>Type:</b> Commercial<br>         <b>Category:</b> facility<br>         <b>ID:</b> F8     </div>     </div>`)[0];
+                popup_82983e077fc8d055193105574435ca39.setContent(html_64674bd2944fbba7be4c005ca19ab2e6);
+            
+        
+
+        marker_cb8f8ecdb8e58e8113b196f05ebe4cdb.bindPopup(popup_82983e077fc8d055193105574435ca39)
+        ;
+
+        
+    
+    
+            marker_cb8f8ecdb8e58e8113b196f05ebe4cdb.bindTooltip(
+                `<div>
+                     Cairo Festival City
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cb8f8ecdb8e58e8113b196f05ebe4cdb.setIcon(icon_fd4c8db7025fee88bc5693c20f82bbca);
+            
+    
+            var marker_b9c6e51386a6ac7fe77232d2f4bdfa7a = L.marker(
+                [30.03, 31.23],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_c0d83b2f12a6d0d12fc437a1b1b2cf80 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a7f565b6073455f594d4908e3d42a4d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3b4807395a04e6c67a7e092a8cb6a08c = $(`<div id="html_3b4807395a04e6c67a7e092a8cb6a08c" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Qasr El Aini Hospital</h4>         <b>Type:</b> Medical<br>         <b>Category:</b> facility<br>         <b>ID:</b> F9     </div>     </div>`)[0];
+                popup_9a7f565b6073455f594d4908e3d42a4d.setContent(html_3b4807395a04e6c67a7e092a8cb6a08c);
+            
+        
+
+        marker_b9c6e51386a6ac7fe77232d2f4bdfa7a.bindPopup(popup_9a7f565b6073455f594d4908e3d42a4d)
+        ;
+
+        
+    
+    
+            marker_b9c6e51386a6ac7fe77232d2f4bdfa7a.bindTooltip(
+                `<div>
+                     Qasr El Aini Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b9c6e51386a6ac7fe77232d2f4bdfa7a.setIcon(icon_c0d83b2f12a6d0d12fc437a1b1b2cf80);
+            
+    
+            var marker_e887f0574d65deeb28bc9ab8e4f2249c = L.marker(
+                [29.95, 31.25],
+                {
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+            var icon_f9e78fd0ef61193f892f00e05107ae05 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3974b4d5ef51981bf0e8e54a521c9250 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dcc19315851b21fe13ed1c2abedeca16 = $(`<div id="html_dcc19315851b21fe13ed1c2abedeca16" style="width: 100.0%; height: 100.0%;">     <div style='min-width: 200px'>         <h4>Maadi Military Hospital</h4>         <b>Type:</b> Medical<br>         <b>Category:</b> facility<br>         <b>ID:</b> F10     </div>     </div>`)[0];
+                popup_3974b4d5ef51981bf0e8e54a521c9250.setContent(html_dcc19315851b21fe13ed1c2abedeca16);
+            
+        
+
+        marker_e887f0574d65deeb28bc9ab8e4f2249c.bindPopup(popup_3974b4d5ef51981bf0e8e54a521c9250)
+        ;
+
+        
+    
+    
+            marker_e887f0574d65deeb28bc9ab8e4f2249c.bindTooltip(
+                `<div>
+                     Maadi Military Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e887f0574d65deeb28bc9ab8e4f2249c.setIcon(icon_f9e78fd0ef61193f892f00e05107ae05);
+            
+    
+            var poly_line_d93a966f7a247b58708fa292ca9ba852 = L.polyline(
+                [[29.96, 31.25], [30.04, 31.24]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_4ebafbc80e660bd4f80ae08b7d558633 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4673b3f0dd9d4d7fc6496cfec0cf3306 = $(`<div id="html_4673b3f0dd9d4d7fc6496cfec0cf3306" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> major_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 3000 vehicles/hour<br>         <b>Condition:</b> 7/10     </div>     </div>`)[0];
+                popup_4ebafbc80e660bd4f80ae08b7d558633.setContent(html_4673b3f0dd9d4d7fc6496cfec0cf3306);
+            
+        
+
+        poly_line_d93a966f7a247b58708fa292ca9ba852.bindPopup(popup_4ebafbc80e660bd4f80ae08b7d558633)
+        ;
+
+        
+    
+    
+            var poly_line_b97a6cf28f0c737d2f397e35ed604ced = L.polyline(
+                [[29.96, 31.25], [29.99, 31.21]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_c87badb8578218047288c37fc411d3c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad5b0d16fe9b28c77df81a7087c4a532 = $(`<div id="html_ad5b0d16fe9b28c77df81a7087c4a532" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> major_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 2500 vehicles/hour<br>         <b>Condition:</b> 6/10     </div>     </div>`)[0];
+                popup_c87badb8578218047288c37fc411d3c7.setContent(html_ad5b0d16fe9b28c77df81a7087c4a532);
+            
+        
+
+        poly_line_b97a6cf28f0c737d2f397e35ed604ced.bindPopup(popup_c87badb8578218047288c37fc411d3c7)
+        ;
+
+        
+    
+    
+            var poly_line_10aace488cd11eb4d83d92e410c0c700 = L.polyline(
+                [[29.96, 31.25], [29.85, 31.33]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_49a6f4cc47aa00f93a52b3773e8b6a87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dabd838ef96d2a1ee64f63e6331b8a56 = $(`<div id="html_dabd838ef96d2a1ee64f63e6331b8a56" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> major_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 2800 vehicles/hour<br>         <b>Condition:</b> 6/10     </div>     </div>`)[0];
+                popup_49a6f4cc47aa00f93a52b3773e8b6a87.setContent(html_dabd838ef96d2a1ee64f63e6331b8a56);
+            
+        
+
+        poly_line_10aace488cd11eb4d83d92e410c0c700.bindPopup(popup_49a6f4cc47aa00f93a52b3773e8b6a87)
+        ;
+
+        
+    
+    
+            var poly_line_c2b0770bd0cc3f9a17c8d726ac228226 = L.polyline(
+                [[29.96, 31.25], [30.03, 31.47]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_178e1820bfdbb5c1f1fa556f53f66fe9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b695b5c704ed32238ac5f7cbe4215e2 = $(`<div id="html_7b695b5c704ed32238ac5f7cbe4215e2" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> potential_road<br>         <b>Status:</b> potential<br>         <b>Capacity:</b> 4000 vehicles/hour<br>         <b>Condition:</b> 0/10     </div>     </div>`)[0];
+                popup_178e1820bfdbb5c1f1fa556f53f66fe9.setContent(html_7b695b5c704ed32238ac5f7cbe4215e2);
+            
+        
+
+        poly_line_c2b0770bd0cc3f9a17c8d726ac228226.bindPopup(popup_178e1820bfdbb5c1f1fa556f53f66fe9)
+        ;
+
+        
+    
+    
+            var poly_line_0b9566491cad6c8070579cf0cc979110 = L.polyline(
+                [[29.96, 31.25], [30.06, 31.49]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_b3077d304e6dc48ad8c699517db97cab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_441e46b6e9fb52107d319d257126a5eb = $(`<div id="html_441e46b6e9fb52107d319d257126a5eb" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> potential_road<br>         <b>Status:</b> potential<br>         <b>Capacity:</b> 3800 vehicles/hour<br>         <b>Condition:</b> 0/10     </div>     </div>`)[0];
+                popup_b3077d304e6dc48ad8c699517db97cab.setContent(html_441e46b6e9fb52107d319d257126a5eb);
+            
+        
+
+        poly_line_0b9566491cad6c8070579cf0cc979110.bindPopup(popup_b3077d304e6dc48ad8c699517db97cab)
+        ;
+
+        
+    
+    
+            var poly_line_cf3dffb941d51ec67e89e2c7fafb6d4c = L.polyline(
+                [[30.06, 31.34], [30.04, 31.24]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_adb57537fafff758c38f4fdb5eb2eb51 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a63321658f1174c6e87182d3ada3c9a = $(`<div id="html_3a63321658f1174c6e87182d3ada3c9a" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> major_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 2800 vehicles/hour<br>         <b>Condition:</b> 8/10     </div>     </div>`)[0];
+                popup_adb57537fafff758c38f4fdb5eb2eb51.setContent(html_3a63321658f1174c6e87182d3ada3c9a);
+            
+        
+
+        poly_line_cf3dffb941d51ec67e89e2c7fafb6d4c.bindPopup(popup_adb57537fafff758c38f4fdb5eb2eb51)
+        ;
+
+        
+    
+    
+            var poly_line_590aae3b633bad84fe106b909369d3c3 = L.polyline(
+                [[30.06, 31.34], [30.09, 31.32]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_b31640dea5173c32e5f193c51d700f6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d125d465544e5d443aa0df4e5c29f85 = $(`<div id="html_0d125d465544e5d443aa0df4e5c29f85" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> major_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 3200 vehicles/hour<br>         <b>Condition:</b> 9/10     </div>     </div>`)[0];
+                popup_b31640dea5173c32e5f193c51d700f6c.setContent(html_0d125d465544e5d443aa0df4e5c29f85);
+            
+        
+
+        poly_line_590aae3b633bad84fe106b909369d3c3.bindPopup(popup_b31640dea5173c32e5f193c51d700f6c)
+        ;
+
+        
+    
+    
+            var poly_line_86dcffc586a99b99382c850b28aa1e89 = L.polyline(
+                [[30.06, 31.34], [30.03, 31.47]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_8ddadc7c537f56af7d705b7e8716af12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6260194b1bc40170a8e02d3fba2ef308 = $(`<div id="html_6260194b1bc40170a8e02d3fba2ef308" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> highway<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 3800 vehicles/hour<br>         <b>Condition:</b> 9/10     </div>     </div>`)[0];
+                popup_8ddadc7c537f56af7d705b7e8716af12.setContent(html_6260194b1bc40170a8e02d3fba2ef308);
+            
+        
+
+        poly_line_86dcffc586a99b99382c850b28aa1e89.bindPopup(popup_8ddadc7c537f56af7d705b7e8716af12)
+        ;
+
+        
+    
+    
+            var poly_line_ec494df2a1fc967785b6caee943a924b = L.polyline(
+                [[30.06, 31.34], [30.11, 31.41]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_d2bf1544f752812b641e1a1cdda094fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8db31e0073a3e1cb110a663458197e01 = $(`<div id="html_8db31e0073a3e1cb110a663458197e01" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> major_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 3200 vehicles/hour<br>         <b>Condition:</b> 8/10     </div>     </div>`)[0];
+                popup_d2bf1544f752812b641e1a1cdda094fa.setContent(html_8db31e0073a3e1cb110a663458197e01);
+            
+        
+
+        poly_line_ec494df2a1fc967785b6caee943a924b.bindPopup(popup_d2bf1544f752812b641e1a1cdda094fa)
+        ;
+
+        
+    
+    
+            var poly_line_c7cf3860a37ab859e8f44b60622e0ee4 = L.polyline(
+                [[30.06, 31.34], [30.02, 31.8]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_c0f5944c5a9fae3ed376d65c8bf95842 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_175e912df5f0aaf2bb5bb9bed193ec17 = $(`<div id="html_175e912df5f0aaf2bb5bb9bed193ec17" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> potential_road<br>         <b>Status:</b> potential<br>         <b>Capacity:</b> 4500 vehicles/hour<br>         <b>Condition:</b> 0/10     </div>     </div>`)[0];
+                popup_c0f5944c5a9fae3ed376d65c8bf95842.setContent(html_175e912df5f0aaf2bb5bb9bed193ec17);
+            
+        
+
+        poly_line_c7cf3860a37ab859e8f44b60622e0ee4.bindPopup(popup_c0f5944c5a9fae3ed376d65c8bf95842)
+        ;
+
+        
+    
+    
+            var poly_line_19b459c264be0c2f084fe93ada67cb1c = L.polyline(
+                [[30.04, 31.24], [30.09, 31.32]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_745248c6eb6165d827aad5f68663199b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_064a509d0ece6e28c55b3ce6e557c5a2 = $(`<div id="html_064a509d0ece6e28c55b3ce6e557c5a2" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> highway<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 3500 vehicles/hour<br>         <b>Condition:</b> 7/10     </div>     </div>`)[0];
+                popup_745248c6eb6165d827aad5f68663199b.setContent(html_064a509d0ece6e28c55b3ce6e557c5a2);
+            
+        
+
+        poly_line_19b459c264be0c2f084fe93ada67cb1c.bindPopup(popup_745248c6eb6165d827aad5f68663199b)
+        ;
+
+        
+    
+    
+            var poly_line_cf1b04bf1b1e4913a5ab92bea3f733f4 = L.polyline(
+                [[30.04, 31.24], [30.06, 31.22]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_67f5cb965611b756614789cb270e4f8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84abf4faf54d20370d2aa48fb506e4c3 = $(`<div id="html_84abf4faf54d20370d2aa48fb506e4c3" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> minor_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 2000 vehicles/hour<br>         <b>Condition:</b> 8/10     </div>     </div>`)[0];
+                popup_67f5cb965611b756614789cb270e4f8c.setContent(html_84abf4faf54d20370d2aa48fb506e4c3);
+            
+        
+
+        poly_line_cf1b04bf1b1e4913a5ab92bea3f733f4.bindPopup(popup_67f5cb965611b756614789cb270e4f8c)
+        ;
+
+        
+    
+    
+            var poly_line_1318933403c40aa62bf1db8530db169e = L.polyline(
+                [[30.04, 31.24], [30.05, 31.2]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_351240a32a91af249d5f6c0aa3d14d01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3623ddceffddea129317912254b4eb0b = $(`<div id="html_3623ddceffddea129317912254b4eb0b" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> major_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 2600 vehicles/hour<br>         <b>Condition:</b> 6/10     </div>     </div>`)[0];
+                popup_351240a32a91af249d5f6c0aa3d14d01.setContent(html_3623ddceffddea129317912254b4eb0b);
+            
+        
+
+        poly_line_1318933403c40aa62bf1db8530db169e.bindPopup(popup_351240a32a91af249d5f6c0aa3d14d01)
+        ;
+
+        
+    
+    
+            var poly_line_5c78ab575255d770e87cbd6bc112b2e0 = L.polyline(
+                [[30.04, 31.24], [30.03, 31.21]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_1960e02170f87badd0e71b8e044ae89f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e274fbd224f9a71ba22cdab4616a6ece = $(`<div id="html_e274fbd224f9a71ba22cdab4616a6ece" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> minor_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 2400 vehicles/hour<br>         <b>Condition:</b> 7/10     </div>     </div>`)[0];
+                popup_1960e02170f87badd0e71b8e044ae89f.setContent(html_e274fbd224f9a71ba22cdab4616a6ece);
+            
+        
+
+        poly_line_5c78ab575255d770e87cbd6bc112b2e0.bindPopup(popup_1960e02170f87badd0e71b8e044ae89f)
+        ;
+
+        
+    
+    
+            var poly_line_ac4c5fe46b5590444177eea5fbe47a79 = L.polyline(
+                [[30.04, 31.24], [30.06, 31.25]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_23637a7e33847f9781a2869765cdc20f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed03ab2355dee6fea60b8874aaa68651 = $(`<div id="html_ed03ab2355dee6fea60b8874aaa68651" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> minor_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 2000 vehicles/hour<br>         <b>Condition:</b> 7/10     </div>     </div>`)[0];
+                popup_23637a7e33847f9781a2869765cdc20f.setContent(html_ed03ab2355dee6fea60b8874aaa68651);
+            
+        
+
+        poly_line_ac4c5fe46b5590444177eea5fbe47a79.bindPopup(popup_23637a7e33847f9781a2869765cdc20f)
+        ;
+
+        
+    
+    
+            var poly_line_0ec2b7c3f725ec42d34543b97605bc5e = L.polyline(
+                [[30.04, 31.24], [30.02, 31.8]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_216486c84e0f3ef63269e3a8a3fef473 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c68e5ed4b751a27ad9ff3345fb69a0b9 = $(`<div id="html_c68e5ed4b751a27ad9ff3345fb69a0b9" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> potential_road<br>         <b>Status:</b> potential<br>         <b>Capacity:</b> 4500 vehicles/hour<br>         <b>Condition:</b> 0/10     </div>     </div>`)[0];
+                popup_216486c84e0f3ef63269e3a8a3fef473.setContent(html_c68e5ed4b751a27ad9ff3345fb69a0b9);
+            
+        
+
+        poly_line_0ec2b7c3f725ec42d34543b97605bc5e.bindPopup(popup_216486c84e0f3ef63269e3a8a3fef473)
+        ;
+
+        
+    
+    
+            var poly_line_8dafce3a8feb53ac9c82a553df36f70c = L.polyline(
+                [[30.03, 31.47], [30.06, 31.49]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_9d5f95e8a260439e1f8c8bd164ec5047 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16d25d7647117986a6ff878b0a634358 = $(`<div id="html_16d25d7647117986a6ff878b0a634358" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> major_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 3000 vehicles/hour<br>         <b>Condition:</b> 10/10     </div>     </div>`)[0];
+                popup_9d5f95e8a260439e1f8c8bd164ec5047.setContent(html_16d25d7647117986a6ff878b0a634358);
+            
+        
+
+        poly_line_8dafce3a8feb53ac9c82a553df36f70c.bindPopup(popup_9d5f95e8a260439e1f8c8bd164ec5047)
+        ;
+
+        
+    
+    
+            var poly_line_1f5a643b95b8daa8b5eeca0c10ca8f75 = L.polyline(
+                [[30.03, 31.47], [30.02, 31.8]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_43b178936364a226e29c343600f5b25d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e77c68f0dbf7e94c38edf17881918512 = $(`<div id="html_e77c68f0dbf7e94c38edf17881918512" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> highway<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 4000 vehicles/hour<br>         <b>Condition:</b> 10/10     </div>     </div>`)[0];
+                popup_43b178936364a226e29c343600f5b25d.setContent(html_e77c68f0dbf7e94c38edf17881918512);
+            
+        
+
+        poly_line_1f5a643b95b8daa8b5eeca0c10ca8f75.bindPopup(popup_43b178936364a226e29c343600f5b25d)
+        ;
+
+        
+    
+    
+            var poly_line_1b265f6cbb99e409c007b773e149c2f4 = L.polyline(
+                [[30.03, 31.47], [30.03, 31.4]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_15f600d2a31cde4693602c5d31cebc40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32d097b6da84a25b2484512c01d0c8b7 = $(`<div id="html_32d097b6da84a25b2484512c01d0c8b7" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> major_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 3000 vehicles/hour<br>         <b>Condition:</b> 9/10     </div>     </div>`)[0];
+                popup_15f600d2a31cde4693602c5d31cebc40.setContent(html_32d097b6da84a25b2484512c01d0c8b7);
+            
+        
+
+        poly_line_1b265f6cbb99e409c007b773e149c2f4.bindPopup(popup_15f600d2a31cde4693602c5d31cebc40)
+        ;
+
+        
+    
+    
+            var poly_line_33813bd9a19cd0404e14bd81a8fa4b5c = L.polyline(
+                [[30.03, 31.47], [30.09, 31.32]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_9c2603c2e77270bdbce20256313d300c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0b0a22ceb33b4cbde6c100346589caf = $(`<div id="html_a0b0a22ceb33b4cbde6c100346589caf" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> potential_road<br>         <b>Status:</b> potential<br>         <b>Capacity:</b> 3500 vehicles/hour<br>         <b>Condition:</b> 0/10     </div>     </div>`)[0];
+                popup_9c2603c2e77270bdbce20256313d300c.setContent(html_a0b0a22ceb33b4cbde6c100346589caf);
+            
+        
+
+        poly_line_33813bd9a19cd0404e14bd81a8fa4b5c.bindPopup(popup_9c2603c2e77270bdbce20256313d300c)
+        ;
+
+        
+    
+    
+            var poly_line_016bfddbfab308041ab9c3726aa9613a = L.polyline(
+                [[30.09, 31.32], [30.11, 31.24]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_1f73cc9b9a4692d2cba338559f9d01c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_125725964cfafebffc2e2c890db02951 = $(`<div id="html_125725964cfafebffc2e2c890db02951" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> major_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 3100 vehicles/hour<br>         <b>Condition:</b> 7/10     </div>     </div>`)[0];
+                popup_1f73cc9b9a4692d2cba338559f9d01c7.setContent(html_125725964cfafebffc2e2c890db02951);
+            
+        
+
+        poly_line_016bfddbfab308041ab9c3726aa9613a.bindPopup(popup_1f73cc9b9a4692d2cba338559f9d01c7)
+        ;
+
+        
+    
+    
+            var poly_line_0f36462fe05b1b562e2fba3bba1ddfbf = L.polyline(
+                [[30.09, 31.32], [30.11, 31.41]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_5702c118086f05146fc91f5ef29f6016 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58262042e6025eeb08fbc74a5f8771cd = $(`<div id="html_58262042e6025eeb08fbc74a5f8771cd" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> highway<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 3500 vehicles/hour<br>         <b>Condition:</b> 9/10     </div>     </div>`)[0];
+                popup_5702c118086f05146fc91f5ef29f6016.setContent(html_58262042e6025eeb08fbc74a5f8771cd);
+            
+        
+
+        poly_line_0f36462fe05b1b562e2fba3bba1ddfbf.bindPopup(popup_5702c118086f05146fc91f5ef29f6016)
+        ;
+
+        
+    
+    
+            var poly_line_423dac4be0f59e004123052ecbd246a3 = L.polyline(
+                [[30.09, 31.32], [30.06, 31.49]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_c3f4b4e04122fdb9862c6388eba78eae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff524533764d1b83f883f9c1faecd8b8 = $(`<div id="html_ff524533764d1b83f883f9c1faecd8b8" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> potential_road<br>         <b>Status:</b> potential<br>         <b>Capacity:</b> 3300 vehicles/hour<br>         <b>Condition:</b> 0/10     </div>     </div>`)[0];
+                popup_c3f4b4e04122fdb9862c6388eba78eae.setContent(html_ff524533764d1b83f883f9c1faecd8b8);
+            
+        
+
+        poly_line_423dac4be0f59e004123052ecbd246a3.bindPopup(popup_c3f4b4e04122fdb9862c6388eba78eae)
+        ;
+
+        
+    
+    
+            var poly_line_18f784919bb115bd3b86b68f253b9970 = L.polyline(
+                [[30.06, 31.22], [30.05, 31.2]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_1c6a51eb22b815875098c4a0b8adead7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ddd4c5ba86cbcfd0e0a0b2bf0ea9787 = $(`<div id="html_3ddd4c5ba86cbcfd0e0a0b2bf0ea9787" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> minor_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 1800 vehicles/hour<br>         <b>Condition:</b> 8/10     </div>     </div>`)[0];
+                popup_1c6a51eb22b815875098c4a0b8adead7.setContent(html_3ddd4c5ba86cbcfd0e0a0b2bf0ea9787);
+            
+        
+
+        poly_line_18f784919bb115bd3b86b68f253b9970.bindPopup(popup_1c6a51eb22b815875098c4a0b8adead7)
+        ;
+
+        
+    
+    
+            var poly_line_dfe36107baf887de911b4df4aa4965c3 = L.polyline(
+                [[30.06, 31.22], [29.99, 31.21]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_b6367ad4247d5c072af74c1e4d8e13e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ade5da55839921844cc7eb1afa5c872a = $(`<div id="html_ade5da55839921844cc7eb1afa5c872a" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> potential_road<br>         <b>Status:</b> potential<br>         <b>Capacity:</b> 2500 vehicles/hour<br>         <b>Condition:</b> 0/10     </div>     </div>`)[0];
+                popup_b6367ad4247d5c072af74c1e4d8e13e1.setContent(html_ade5da55839921844cc7eb1afa5c872a);
+            
+        
+
+        poly_line_dfe36107baf887de911b4df4aa4965c3.bindPopup(popup_b6367ad4247d5c072af74c1e4d8e13e1)
+        ;
+
+        
+    
+    
+            var poly_line_70fd56332e884b09d02e071339f494fe = L.polyline(
+                [[29.93, 30.98], [29.99, 31.21]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_08f8bbfe2b7fd067ed4d22c910456571 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4800c2c06eaa2f02e8a3af0b3ab8eafc = $(`<div id="html_4800c2c06eaa2f02e8a3af0b3ab8eafc" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> highway<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 3500 vehicles/hour<br>         <b>Condition:</b> 8/10     </div>     </div>`)[0];
+                popup_08f8bbfe2b7fd067ed4d22c910456571.setContent(html_4800c2c06eaa2f02e8a3af0b3ab8eafc);
+            
+        
+
+        poly_line_70fd56332e884b09d02e071339f494fe.bindPopup(popup_08f8bbfe2b7fd067ed4d22c910456571)
+        ;
+
+        
+    
+    
+            var poly_line_db9ae2546521aa012e5a2138579a2732 = L.polyline(
+                [[29.93, 30.98], [30.01, 30.94]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_2969cfa73dc978dbecbb795a42b480cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f58833a63775befbe9dd3edde45e8d0 = $(`<div id="html_3f58833a63775befbe9dd3edde45e8d0" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> major_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 3000 vehicles/hour<br>         <b>Condition:</b> 9/10     </div>     </div>`)[0];
+                popup_2969cfa73dc978dbecbb795a42b480cf.setContent(html_3f58833a63775befbe9dd3edde45e8d0);
+            
+        
+
+        poly_line_db9ae2546521aa012e5a2138579a2732.bindPopup(popup_2969cfa73dc978dbecbb795a42b480cf)
+        ;
+
+        
+    
+    
+            var poly_line_baa672cdf03afc4ca5ab3dfe18fb523d = L.polyline(
+                [[29.93, 30.98], [30.02, 31.8]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_41d783d532baa7f6ded21c9ed69fe527 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e34ecf2aa37feec669775a77360e3878 = $(`<div id="html_e34ecf2aa37feec669775a77360e3878" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> potential_road<br>         <b>Status:</b> potential<br>         <b>Capacity:</b> 4000 vehicles/hour<br>         <b>Condition:</b> 0/10     </div>     </div>`)[0];
+                popup_41d783d532baa7f6ded21c9ed69fe527.setContent(html_e34ecf2aa37feec669775a77360e3878);
+            
+        
+
+        poly_line_baa672cdf03afc4ca5ab3dfe18fb523d.bindPopup(popup_41d783d532baa7f6ded21c9ed69fe527)
+        ;
+
+        
+    
+    
+            var poly_line_648175e01120ba1739e597cf34cea6f7 = L.polyline(
+                [[29.99, 31.21], [30.03, 31.21]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_f39a0fef36b76c14fa34387845b5d60b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f899caf02d4a4a9c4e95cd3ee74f9d8b = $(`<div id="html_f899caf02d4a4a9c4e95cd3ee74f9d8b" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> minor_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 2200 vehicles/hour<br>         <b>Condition:</b> 7/10     </div>     </div>`)[0];
+                popup_f39a0fef36b76c14fa34387845b5d60b.setContent(html_f899caf02d4a4a9c4e95cd3ee74f9d8b);
+            
+        
+
+        poly_line_648175e01120ba1739e597cf34cea6f7.bindPopup(popup_f39a0fef36b76c14fa34387845b5d60b)
+        ;
+
+        
+    
+    
+            var poly_line_570f0d91d2ad99575226e07494ef87aa = L.polyline(
+                [[29.99, 31.21], [29.85, 31.33]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_9f4d788b16575d2a085ca77710689439 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea68d1c8e332657f5a97511e935a37ef = $(`<div id="html_ea68d1c8e332657f5a97511e935a37ef" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> major_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 2600 vehicles/hour<br>         <b>Condition:</b> 5/10     </div>     </div>`)[0];
+                popup_9f4d788b16575d2a085ca77710689439.setContent(html_ea68d1c8e332657f5a97511e935a37ef);
+            
+        
+
+        poly_line_570f0d91d2ad99575226e07494ef87aa.bindPopup(popup_9f4d788b16575d2a085ca77710689439)
+        ;
+
+        
+    
+    
+            var poly_line_bdd90ad1107488091c88ec79995c3c48 = L.polyline(
+                [[30.05, 31.2], [30.03, 31.21]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_22df0356d81cb88fa3f29f932ce5bae2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85cc30b57d6bc8c74652ac8c450c79d4 = $(`<div id="html_85cc30b57d6bc8c74652ac8c450c79d4" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> minor_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 1900 vehicles/hour<br>         <b>Condition:</b> 7/10     </div>     </div>`)[0];
+                popup_22df0356d81cb88fa3f29f932ce5bae2.setContent(html_85cc30b57d6bc8c74652ac8c450c79d4);
+            
+        
+
+        poly_line_bdd90ad1107488091c88ec79995c3c48.bindPopup(popup_22df0356d81cb88fa3f29f932ce5bae2)
+        ;
+
+        
+    
+    
+            var poly_line_6f3e5547504d154e5a656279f56c8466 = L.polyline(
+                [[30.05, 31.2], [30.11, 31.24]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_92ddbf53b9f24cb358a9c565aa2d6d1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8728fe0a8fe137bf6a494f3234237a22 = $(`<div id="html_8728fe0a8fe137bf6a494f3234237a22" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> potential_road<br>         <b>Status:</b> potential<br>         <b>Capacity:</b> 2800 vehicles/hour<br>         <b>Condition:</b> 0/10     </div>     </div>`)[0];
+                popup_92ddbf53b9f24cb358a9c565aa2d6d1e.setContent(html_8728fe0a8fe137bf6a494f3234237a22);
+            
+        
+
+        poly_line_6f3e5547504d154e5a656279f56c8466.bindPopup(popup_92ddbf53b9f24cb358a9c565aa2d6d1e)
+        ;
+
+        
+    
+    
+            var poly_line_3b3b6118e3e47e0cc52b9df692bb752a = L.polyline(
+                [[30.05, 31.2], [30.01, 30.94]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_4ec7f8267c12b95ffbc4ec233dc25668 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_486f22c8ace6bcb744aa1d108755f2ff = $(`<div id="html_486f22c8ace6bcb744aa1d108755f2ff" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> potential_road<br>         <b>Status:</b> potential<br>         <b>Capacity:</b> 3000 vehicles/hour<br>         <b>Condition:</b> 0/10     </div>     </div>`)[0];
+                popup_4ec7f8267c12b95ffbc4ec233dc25668.setContent(html_486f22c8ace6bcb744aa1d108755f2ff);
+            
+        
+
+        poly_line_3b3b6118e3e47e0cc52b9df692bb752a.bindPopup(popup_4ec7f8267c12b95ffbc4ec233dc25668)
+        ;
+
+        
+    
+    
+            var poly_line_eb33946a7e1d3659bf4225ac0ce7591f = L.polyline(
+                [[30.05, 31.2], [30.07, 30.97]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_ee76c19fcf9912f884ffd669bedb5aab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69118ed9887ffee6768e7bd2d48bc767 = $(`<div id="html_69118ed9887ffee6768e7bd2d48bc767" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> potential_road<br>         <b>Status:</b> potential<br>         <b>Capacity:</b> 3200 vehicles/hour<br>         <b>Condition:</b> 0/10     </div>     </div>`)[0];
+                popup_ee76c19fcf9912f884ffd669bedb5aab.setContent(html_69118ed9887ffee6768e7bd2d48bc767);
+            
+        
+
+        poly_line_eb33946a7e1d3659bf4225ac0ce7591f.bindPopup(popup_ee76c19fcf9912f884ffd669bedb5aab)
+        ;
+
+        
+    
+    
+            var poly_line_d14480bcf1acc22b3cd088a7fb1498af = L.polyline(
+                [[30.03, 31.21], [30.11, 31.24]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_5933a9eea4a2e51243375d36792855c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3d2602d36fb703e29dd4dcc22977824 = $(`<div id="html_b3d2602d36fb703e29dd4dcc22977824" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> minor_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 2400 vehicles/hour<br>         <b>Condition:</b> 6/10     </div>     </div>`)[0];
+                popup_5933a9eea4a2e51243375d36792855c2.setContent(html_b3d2602d36fb703e29dd4dcc22977824);
+            
+        
+
+        poly_line_d14480bcf1acc22b3cd088a7fb1498af.bindPopup(popup_5933a9eea4a2e51243375d36792855c2)
+        ;
+
+        
+    
+    
+            var poly_line_4f820f42b5131fd3c80921c5a282736a = L.polyline(
+                [[30.03, 31.21], [30.07, 30.97]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_b2f830d8431bb38825210b848ed6e1ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_075a860ff6cacd8900ccf1cb3c453b5c = $(`<div id="html_075a860ff6cacd8900ccf1cb3c453b5c" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> potential_road<br>         <b>Status:</b> potential<br>         <b>Capacity:</b> 3200 vehicles/hour<br>         <b>Condition:</b> 0/10     </div>     </div>`)[0];
+                popup_b2f830d8431bb38825210b848ed6e1ee.setContent(html_075a860ff6cacd8900ccf1cb3c453b5c);
+            
+        
+
+        poly_line_4f820f42b5131fd3c80921c5a282736a.bindPopup(popup_b2f830d8431bb38825210b848ed6e1ee)
+        ;
+
+        
+    
+    
+            var poly_line_87f2d774fa588f8cfba1149396a3bf30 = L.polyline(
+                [[30.11, 31.24], [30.06, 31.25]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_a870796ba0995032d2c184893df0eca6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f38d7aa963f5f59e52fe55663e4cc7e1 = $(`<div id="html_f38d7aa963f5f59e52fe55663e4cc7e1" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> minor_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 2200 vehicles/hour<br>         <b>Condition:</b> 7/10     </div>     </div>`)[0];
+                popup_a870796ba0995032d2c184893df0eca6.setContent(html_f38d7aa963f5f59e52fe55663e4cc7e1);
+            
+        
+
+        poly_line_87f2d774fa588f8cfba1149396a3bf30.bindPopup(popup_a870796ba0995032d2c184893df0eca6)
+        ;
+
+        
+    
+    
+            var poly_line_ab697fa6f26822cf0617660c5178e094 = L.polyline(
+                [[30.11, 31.24], [30.02, 31.8]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_aeab0ae61e6c4156804a741734a57e74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0bf33e5691c8fe4656e3d69f7021214e = $(`<div id="html_0bf33e5691c8fe4656e3d69f7021214e" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> potential_road<br>         <b>Status:</b> potential<br>         <b>Capacity:</b> 4200 vehicles/hour<br>         <b>Condition:</b> 0/10     </div>     </div>`)[0];
+                popup_aeab0ae61e6c4156804a741734a57e74.setContent(html_0bf33e5691c8fe4656e3d69f7021214e);
+            
+        
+
+        poly_line_ab697fa6f26822cf0617660c5178e094.bindPopup(popup_aeab0ae61e6c4156804a741734a57e74)
+        ;
+
+        
+    
+    
+            var poly_line_4b0be9856cbcd16c4093d937d2494279 = L.polyline(
+                [[29.85, 31.33], [30.06, 31.49]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_fbb9affea45142e0ddda11ce5d21fe96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e54cb39b28557e7c4094247877b0eaa = $(`<div id="html_9e54cb39b28557e7c4094247877b0eaa" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> potential_road<br>         <b>Status:</b> potential<br>         <b>Capacity:</b> 3600 vehicles/hour<br>         <b>Condition:</b> 0/10     </div>     </div>`)[0];
+                popup_fbb9affea45142e0ddda11ce5d21fe96.setContent(html_9e54cb39b28557e7c4094247877b0eaa);
+            
+        
+
+        poly_line_4b0be9856cbcd16c4093d937d2494279.bindPopup(popup_fbb9affea45142e0ddda11ce5d21fe96)
+        ;
+
+        
+    
+    
+            var poly_line_82f93f795d0440db0474dc41b0868f9e = L.polyline(
+                [[30.02, 31.8], [30.06, 31.49]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_f39905bec1f3a11f490b7b47a6d5b98b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02661b787c6783e78f3a2989b3a19978 = $(`<div id="html_02661b787c6783e78f3a2989b3a19978" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> highway<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 3800 vehicles/hour<br>         <b>Condition:</b> 9/10     </div>     </div>`)[0];
+                popup_f39905bec1f3a11f490b7b47a6d5b98b.setContent(html_02661b787c6783e78f3a2989b3a19978);
+            
+        
+
+        poly_line_82f93f795d0440db0474dc41b0868f9e.bindPopup(popup_f39905bec1f3a11f490b7b47a6d5b98b)
+        ;
+
+        
+    
+    
+            var poly_line_84a9aca432330df648ea41614912fb8d = L.polyline(
+                [[30.02, 31.8], [30.11, 31.41]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_87c3bd36c445ca5d65366a914a2edb93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2666a08a4878450ec049c9cfc6a3532b = $(`<div id="html_2666a08a4878450ec049c9cfc6a3532b" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> potential_road<br>         <b>Status:</b> potential<br>         <b>Capacity:</b> 4000 vehicles/hour<br>         <b>Condition:</b> 0/10     </div>     </div>`)[0];
+                popup_87c3bd36c445ca5d65366a914a2edb93.setContent(html_2666a08a4878450ec049c9cfc6a3532b);
+            
+        
+
+        poly_line_84a9aca432330df648ea41614912fb8d.bindPopup(popup_87c3bd36c445ca5d65366a914a2edb93)
+        ;
+
+        
+    
+    
+            var poly_line_a0e7cccf1eb135a6a09e33fc4afc091c = L.polyline(
+                [[30.01, 30.94], [30.07, 30.97]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+        
+    
+        var popup_3b5c2871c28f92f6a2e2301b16dbf638 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f173ef8fbbe289e909326bd22e4039d = $(`<div id="html_5f173ef8fbbe289e909326bd22e4039d" style="width: 100.0%; height: 100.0%;">     <div>         <b>Road Type:</b> major_road<br>         <b>Status:</b> existing<br>         <b>Capacity:</b> 2800 vehicles/hour<br>         <b>Condition:</b> 8/10     </div>     </div>`)[0];
+                popup_3b5c2871c28f92f6a2e2301b16dbf638.setContent(html_5f173ef8fbbe289e909326bd22e4039d);
+            
+        
+
+        poly_line_a0e7cccf1eb135a6a09e33fc4afc091c.bindPopup(popup_3b5c2871c28f92f6a2e2301b16dbf638)
+        ;
+
+        
+    
+    
+            var layer_control_84bd82a195259787549ecab6ae0ea9ca_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_d0a3ba48ccb52dfd454729fd881b9d2e,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_84bd82a195259787549ecab6ae0ea9ca = L.control.layers(
+                layer_control_84bd82a195259787549ecab6ae0ea9ca_layers.base_layers,
+                layer_control_84bd82a195259787549ecab6ae0ea9ca_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_50bd15d24a66f3718435c4dfbcc50b37);
+
+        
+</script>
+</html>

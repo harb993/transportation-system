@@ -1,0 +1,2118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_de2ecdbbe35c6e66a041e3dcc5534ff0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_de2ecdbbe35c6e66a041e3dcc5534ff0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_de2ecdbbe35c6e66a041e3dcc5534ff0 = L.map(
+                "map_de2ecdbbe35c6e66a041e3dcc5534ff0",
+                {
+                    center: [30.05, 31.25],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1cad87e27e09e3023cc140d4df1d3064 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1cad87e27e09e3023cc140d4df1d3064.addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+            var circle_marker_1e1a6b558c0befa5c14b4b8c98a3cbcc = L.circleMarker(
+                [29.96, 31.25],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 2}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_c2dbdb0fe23fb9814fd865e82f082532 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f8e0159fb26760ec3fd11bc88a4232c7 = $(`<div id="html_f8e0159fb26760ec3fd11bc88a4232c7" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Maadi</h4>                 <b>Type:</b> Transit Station<br>                 <b>Population Served:</b> 0<br>                 <b>ID:</b> 1             </div>             </div>`)[0];
+                popup_c2dbdb0fe23fb9814fd865e82f082532.setContent(html_f8e0159fb26760ec3fd11bc88a4232c7);
+            
+        
+
+        circle_marker_1e1a6b558c0befa5c14b4b8c98a3cbcc.bindPopup(popup_c2dbdb0fe23fb9814fd865e82f082532)
+        ;
+
+        
+    
+    
+            var circle_marker_e22202153785805cf63d716f7047cbb8 = L.circleMarker(
+                [30.06, 31.34],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 2}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_4f1fffeda3dc959a6aab2bddb55cc1b2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_694a32c99ae037245b974d01d2d004e0 = $(`<div id="html_694a32c99ae037245b974d01d2d004e0" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Nasr City</h4>                 <b>Type:</b> Transit Station<br>                 <b>Population Served:</b> 0<br>                 <b>ID:</b> 2             </div>             </div>`)[0];
+                popup_4f1fffeda3dc959a6aab2bddb55cc1b2.setContent(html_694a32c99ae037245b974d01d2d004e0);
+            
+        
+
+        circle_marker_e22202153785805cf63d716f7047cbb8.bindPopup(popup_4f1fffeda3dc959a6aab2bddb55cc1b2)
+        ;
+
+        
+    
+    
+            var circle_marker_fcd6ee6e0b9f70e1f36dfbf9594b4396 = L.circleMarker(
+                [30.04, 31.24],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 2}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_3623916783e27a87a016befccfa0c54b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8d75b51f6f80cb95635e7f9792fd99de = $(`<div id="html_8d75b51f6f80cb95635e7f9792fd99de" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Downtown Cairo</h4>                 <b>Type:</b> Transit Station<br>                 <b>Population Served:</b> 0<br>                 <b>ID:</b> 3             </div>             </div>`)[0];
+                popup_3623916783e27a87a016befccfa0c54b.setContent(html_8d75b51f6f80cb95635e7f9792fd99de);
+            
+        
+
+        circle_marker_fcd6ee6e0b9f70e1f36dfbf9594b4396.bindPopup(popup_3623916783e27a87a016befccfa0c54b)
+        ;
+
+        
+    
+    
+            var circle_marker_4c51ad880557a038fbf97b4f4418ca83 = L.circleMarker(
+                [30.03, 31.47],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 2}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_2f14b14b3bb1b10a5eb412a7f1fe4cfe = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e37ea52d003316af465dd19cbaec9b49 = $(`<div id="html_e37ea52d003316af465dd19cbaec9b49" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>New Cairo</h4>                 <b>Type:</b> Transit Station<br>                 <b>Population Served:</b> 0<br>                 <b>ID:</b> 4             </div>             </div>`)[0];
+                popup_2f14b14b3bb1b10a5eb412a7f1fe4cfe.setContent(html_e37ea52d003316af465dd19cbaec9b49);
+            
+        
+
+        circle_marker_4c51ad880557a038fbf97b4f4418ca83.bindPopup(popup_2f14b14b3bb1b10a5eb412a7f1fe4cfe)
+        ;
+
+        
+    
+    
+            var circle_marker_abffacbb09b097b4f9048d7436a05cdd = L.circleMarker(
+                [30.09, 31.32],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 2}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_b46a72bc519b2eb48ee178aeeee94f26 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f8e9fa0924f20c50489110012d06d10c = $(`<div id="html_f8e9fa0924f20c50489110012d06d10c" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Heliopolis</h4>                 <b>Type:</b> Transit Station<br>                 <b>Population Served:</b> 0<br>                 <b>ID:</b> 5             </div>             </div>`)[0];
+                popup_b46a72bc519b2eb48ee178aeeee94f26.setContent(html_f8e9fa0924f20c50489110012d06d10c);
+            
+        
+
+        circle_marker_abffacbb09b097b4f9048d7436a05cdd.bindPopup(popup_b46a72bc519b2eb48ee178aeeee94f26)
+        ;
+
+        
+    
+    
+            var circle_marker_369c20175e469a8e82858f05da73aa71 = L.circleMarker(
+                [30.06, 31.22],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 2}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_c9f0812a60925a986423ead2297e780f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_242937f7fcd2b175d13b66734b396976 = $(`<div id="html_242937f7fcd2b175d13b66734b396976" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Zamalek</h4>                 <b>Type:</b> Transit Station<br>                 <b>Population Served:</b> 0<br>                 <b>ID:</b> 6             </div>             </div>`)[0];
+                popup_c9f0812a60925a986423ead2297e780f.setContent(html_242937f7fcd2b175d13b66734b396976);
+            
+        
+
+        circle_marker_369c20175e469a8e82858f05da73aa71.bindPopup(popup_c9f0812a60925a986423ead2297e780f)
+        ;
+
+        
+    
+    
+            var circle_marker_20c779fe8edce40f755caf1581164c18 = L.circleMarker(
+                [29.93, 30.98],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 2}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_8a983ed8236a03b041e1b0a6c8ea51e7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e608af8214333ddad0bb90021cf5f236 = $(`<div id="html_e608af8214333ddad0bb90021cf5f236" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>6th October City</h4>                 <b>Type:</b> Transit Station<br>                 <b>Population Served:</b> 0<br>                 <b>ID:</b> 7             </div>             </div>`)[0];
+                popup_8a983ed8236a03b041e1b0a6c8ea51e7.setContent(html_e608af8214333ddad0bb90021cf5f236);
+            
+        
+
+        circle_marker_20c779fe8edce40f755caf1581164c18.bindPopup(popup_8a983ed8236a03b041e1b0a6c8ea51e7)
+        ;
+
+        
+    
+    
+            var circle_marker_f9b9abc4bb1d8d3f7f9ded77d87adfce = L.circleMarker(
+                [29.99, 31.21],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 2}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_9a723360616bf464ce87d28bea1003c7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4e772eda523d60ce3d1d33f04b48f13d = $(`<div id="html_4e772eda523d60ce3d1d33f04b48f13d" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Giza</h4>                 <b>Type:</b> Transit Station<br>                 <b>Population Served:</b> 0<br>                 <b>ID:</b> 8             </div>             </div>`)[0];
+                popup_9a723360616bf464ce87d28bea1003c7.setContent(html_4e772eda523d60ce3d1d33f04b48f13d);
+            
+        
+
+        circle_marker_f9b9abc4bb1d8d3f7f9ded77d87adfce.bindPopup(popup_9a723360616bf464ce87d28bea1003c7)
+        ;
+
+        
+    
+    
+            var circle_marker_02f38b49af542bda39f9196c6762bc61 = L.circleMarker(
+                [30.05, 31.2],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 2}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_d7968c56abc1b82c70f89ded08d80b5d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_53425dbc8a33f067821a47b78be218fc = $(`<div id="html_53425dbc8a33f067821a47b78be218fc" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Mohandessin</h4>                 <b>Type:</b> Transit Station<br>                 <b>Population Served:</b> 0<br>                 <b>ID:</b> 9             </div>             </div>`)[0];
+                popup_d7968c56abc1b82c70f89ded08d80b5d.setContent(html_53425dbc8a33f067821a47b78be218fc);
+            
+        
+
+        circle_marker_02f38b49af542bda39f9196c6762bc61.bindPopup(popup_d7968c56abc1b82c70f89ded08d80b5d)
+        ;
+
+        
+    
+    
+            var circle_marker_eab2a7e1e87204febbbde168a741d9b2 = L.circleMarker(
+                [30.03, 31.21],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 2}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_8c8e17b71c905c66e5ae8986f35b115b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f5c425bb81ccf4c1e44c01667b5a9a4a = $(`<div id="html_f5c425bb81ccf4c1e44c01667b5a9a4a" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Dokki</h4>                 <b>Type:</b> Transit Station<br>                 <b>Population Served:</b> 0<br>                 <b>ID:</b> 10             </div>             </div>`)[0];
+                popup_8c8e17b71c905c66e5ae8986f35b115b.setContent(html_f5c425bb81ccf4c1e44c01667b5a9a4a);
+            
+        
+
+        circle_marker_eab2a7e1e87204febbbde168a741d9b2.bindPopup(popup_8c8e17b71c905c66e5ae8986f35b115b)
+        ;
+
+        
+    
+    
+            var circle_marker_1904f775c4c1bf011b8f9720803a1f89 = L.circleMarker(
+                [30.11, 31.24],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 2}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_399e271b47081e1e666d2c1d150eb193 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3296e62181ec4595baf9476116164181 = $(`<div id="html_3296e62181ec4595baf9476116164181" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Shubra</h4>                 <b>Type:</b> Transit Station<br>                 <b>Population Served:</b> 0<br>                 <b>ID:</b> 11             </div>             </div>`)[0];
+                popup_399e271b47081e1e666d2c1d150eb193.setContent(html_3296e62181ec4595baf9476116164181);
+            
+        
+
+        circle_marker_1904f775c4c1bf011b8f9720803a1f89.bindPopup(popup_399e271b47081e1e666d2c1d150eb193)
+        ;
+
+        
+    
+    
+            var circle_marker_e751ae92a0d8a42a7057616ee3ac5fe7 = L.circleMarker(
+                [29.85, 31.33],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 2}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_312ddb044d622a68b5d17443528b305d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a54d86e68ec8121fbb57361632eb3c8d = $(`<div id="html_a54d86e68ec8121fbb57361632eb3c8d" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Helwan</h4>                 <b>Type:</b> Transit Station<br>                 <b>Population Served:</b> 0<br>                 <b>ID:</b> 12             </div>             </div>`)[0];
+                popup_312ddb044d622a68b5d17443528b305d.setContent(html_a54d86e68ec8121fbb57361632eb3c8d);
+            
+        
+
+        circle_marker_e751ae92a0d8a42a7057616ee3ac5fe7.bindPopup(popup_312ddb044d622a68b5d17443528b305d)
+        ;
+
+        
+    
+    
+            var circle_marker_f62e7b5cf4a0f769f6a2f8d1e6b712b8 = L.circleMarker(
+                [30.02, 31.8],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 2}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_480dd51e14ee13c848d474e360d4fd85 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f7ad1b5e3645cff25e44d3d81beaaea9 = $(`<div id="html_f7ad1b5e3645cff25e44d3d81beaaea9" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>New Administrative Capital</h4>                 <b>Type:</b> Transit Station<br>                 <b>Population Served:</b> 0<br>                 <b>ID:</b> 13             </div>             </div>`)[0];
+                popup_480dd51e14ee13c848d474e360d4fd85.setContent(html_f7ad1b5e3645cff25e44d3d81beaaea9);
+            
+        
+
+        circle_marker_f62e7b5cf4a0f769f6a2f8d1e6b712b8.bindPopup(popup_480dd51e14ee13c848d474e360d4fd85)
+        ;
+
+        
+    
+    
+            var circle_marker_ce5fb64b2ff64c5f49c27d0478b32764 = L.circleMarker(
+                [30.06, 31.49],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 2}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_2aa8c8927c102a229cac0ca8def2d48d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_651f90f39519114756a9e2e44f2e9e47 = $(`<div id="html_651f90f39519114756a9e2e44f2e9e47" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Al Rehab</h4>                 <b>Type:</b> Transit Station<br>                 <b>Population Served:</b> 0<br>                 <b>ID:</b> 14             </div>             </div>`)[0];
+                popup_2aa8c8927c102a229cac0ca8def2d48d.setContent(html_651f90f39519114756a9e2e44f2e9e47);
+            
+        
+
+        circle_marker_ce5fb64b2ff64c5f49c27d0478b32764.bindPopup(popup_2aa8c8927c102a229cac0ca8def2d48d)
+        ;
+
+        
+    
+    
+            var circle_marker_019e364f1be46c3c0456572e88e454c8 = L.circleMarker(
+                [30.01, 30.94],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 2}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_693d8c2267b1f9510b8a7d6924620097 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1fb6c4d3e7c850a904d77efe9ddf4612 = $(`<div id="html_1fb6c4d3e7c850a904d77efe9ddf4612" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Sheikh Zayed</h4>                 <b>Type:</b> Transit Station<br>                 <b>Population Served:</b> 0<br>                 <b>ID:</b> 15             </div>             </div>`)[0];
+                popup_693d8c2267b1f9510b8a7d6924620097.setContent(html_1fb6c4d3e7c850a904d77efe9ddf4612);
+            
+        
+
+        circle_marker_019e364f1be46c3c0456572e88e454c8.bindPopup(popup_693d8c2267b1f9510b8a7d6924620097)
+        ;
+
+        
+    
+    
+            var marker_291ebd21b4a4925b6fcaa47fe5411a22 = L.marker(
+                [30.11, 31.41],
+                {
+}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+            var icon_e78bae791ae5333b28038d5fed978c9d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7d775394c6a4442a89c16a9075f4c0ea = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0af25cb05b5663c885840be6ca05ceb9 = $(`<div id="html_0af25cb05b5663c885840be6ca05ceb9" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Cairo International Airport</h4>                 <b>Type:</b> Airport<br>                 <b>ID:</b> F1             </div>             </div>`)[0];
+                popup_7d775394c6a4442a89c16a9075f4c0ea.setContent(html_0af25cb05b5663c885840be6ca05ceb9);
+            
+        
+
+        marker_291ebd21b4a4925b6fcaa47fe5411a22.bindPopup(popup_7d775394c6a4442a89c16a9075f4c0ea)
+        ;
+
+        
+    
+    
+            marker_291ebd21b4a4925b6fcaa47fe5411a22.bindTooltip(
+                `<div>
+                     Cairo International Airport
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_291ebd21b4a4925b6fcaa47fe5411a22.setIcon(icon_e78bae791ae5333b28038d5fed978c9d);
+            
+    
+            var marker_2b853aebfd2d0f51c161d8e468bc38d3 = L.marker(
+                [30.06, 31.25],
+                {
+}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+            var icon_1c436e0af18d549954dbd5c83b769450 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "train",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c4b68930665a78f4fb859c847e53611 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_95550d34551ecf3b6b112dc195ef9a8b = $(`<div id="html_95550d34551ecf3b6b112dc195ef9a8b" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Ramses Railway Station</h4>                 <b>Type:</b> Transit Hub<br>                 <b>ID:</b> F2             </div>             </div>`)[0];
+                popup_5c4b68930665a78f4fb859c847e53611.setContent(html_95550d34551ecf3b6b112dc195ef9a8b);
+            
+        
+
+        marker_2b853aebfd2d0f51c161d8e468bc38d3.bindPopup(popup_5c4b68930665a78f4fb859c847e53611)
+        ;
+
+        
+    
+    
+            marker_2b853aebfd2d0f51c161d8e468bc38d3.bindTooltip(
+                `<div>
+                     Ramses Railway Station
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2b853aebfd2d0f51c161d8e468bc38d3.setIcon(icon_1c436e0af18d549954dbd5c83b769450);
+            
+    
+            var marker_4c6aa9d77812874ad04d3aaa5418e2dc = L.marker(
+                [30.03, 31.21],
+                {
+}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+            var icon_225556539d3a80a05dbc009c929ffb13 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9c7d120472492a7101e48ecda55222e4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c55bd23f54f9e0ef7d0f93bccd0a453f = $(`<div id="html_c55bd23f54f9e0ef7d0f93bccd0a453f" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Cairo University</h4>                 <b>Type:</b> Education<br>                 <b>ID:</b> F3             </div>             </div>`)[0];
+                popup_9c7d120472492a7101e48ecda55222e4.setContent(html_c55bd23f54f9e0ef7d0f93bccd0a453f);
+            
+        
+
+        marker_4c6aa9d77812874ad04d3aaa5418e2dc.bindPopup(popup_9c7d120472492a7101e48ecda55222e4)
+        ;
+
+        
+    
+    
+            marker_4c6aa9d77812874ad04d3aaa5418e2dc.bindTooltip(
+                `<div>
+                     Cairo University
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4c6aa9d77812874ad04d3aaa5418e2dc.setIcon(icon_225556539d3a80a05dbc009c929ffb13);
+            
+    
+            var marker_58f0c6e405f6b1e9e553a2bb220bfe10 = L.marker(
+                [30.05, 31.26],
+                {
+}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+            var icon_3c58fbded43c74858a77ce95c7a2b383 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5be8a2123b144a1f8f279166ad51514a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_60ed6cbe7041a841993586ce6ad1b494 = $(`<div id="html_60ed6cbe7041a841993586ce6ad1b494" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Al-Azhar University</h4>                 <b>Type:</b> Education<br>                 <b>ID:</b> F4             </div>             </div>`)[0];
+                popup_5be8a2123b144a1f8f279166ad51514a.setContent(html_60ed6cbe7041a841993586ce6ad1b494);
+            
+        
+
+        marker_58f0c6e405f6b1e9e553a2bb220bfe10.bindPopup(popup_5be8a2123b144a1f8f279166ad51514a)
+        ;
+
+        
+    
+    
+            marker_58f0c6e405f6b1e9e553a2bb220bfe10.bindTooltip(
+                `<div>
+                     Al-Azhar University
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_58f0c6e405f6b1e9e553a2bb220bfe10.setIcon(icon_3c58fbded43c74858a77ce95c7a2b383);
+            
+    
+            var marker_8e8a47d8924b1b23d3f3f1084799a3b5 = L.marker(
+                [30.05, 31.23],
+                {
+}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+            var icon_6e7eb0b6f74a620589b040fee2dd1265 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bd622a98ab2638fb1f6aa5c3568e7ee8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ab92813d8fa217a3446dd077c4259e26 = $(`<div id="html_ab92813d8fa217a3446dd077c4259e26" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Egyptian Museum</h4>                 <b>Type:</b> Tourism<br>                 <b>ID:</b> F5             </div>             </div>`)[0];
+                popup_bd622a98ab2638fb1f6aa5c3568e7ee8.setContent(html_ab92813d8fa217a3446dd077c4259e26);
+            
+        
+
+        marker_8e8a47d8924b1b23d3f3f1084799a3b5.bindPopup(popup_bd622a98ab2638fb1f6aa5c3568e7ee8)
+        ;
+
+        
+    
+    
+            marker_8e8a47d8924b1b23d3f3f1084799a3b5.bindTooltip(
+                `<div>
+                     Egyptian Museum
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8e8a47d8924b1b23d3f3f1084799a3b5.setIcon(icon_6e7eb0b6f74a620589b040fee2dd1265);
+            
+    
+            var marker_580cc46065c0f4015a5972f3d53eed46 = L.marker(
+                [30.07, 31.3],
+                {
+}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+            var icon_c06c37cf138d6dc8c2e2a8855774eb3b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "futbol-o",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_43f084653b5ffa723ff4ce2d758cb0b4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1da1829627986be5ff4f9076bd5cb047 = $(`<div id="html_1da1829627986be5ff4f9076bd5cb047" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Cairo International Stadium</h4>                 <b>Type:</b> Sports<br>                 <b>ID:</b> F6             </div>             </div>`)[0];
+                popup_43f084653b5ffa723ff4ce2d758cb0b4.setContent(html_1da1829627986be5ff4f9076bd5cb047);
+            
+        
+
+        marker_580cc46065c0f4015a5972f3d53eed46.bindPopup(popup_43f084653b5ffa723ff4ce2d758cb0b4)
+        ;
+
+        
+    
+    
+            marker_580cc46065c0f4015a5972f3d53eed46.bindTooltip(
+                `<div>
+                     Cairo International Stadium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_580cc46065c0f4015a5972f3d53eed46.setIcon(icon_c06c37cf138d6dc8c2e2a8855774eb3b);
+            
+    
+            var marker_69b00d0418229e19f235cfa916f4897b = L.marker(
+                [30.07, 30.97],
+                {
+}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+            var icon_96a6ded1b50104aa89f949ba50d76d06 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9cf5c3d4e7f385d683e49dac9f4c60ff = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d853504ad9a9d0b8fe32c1973374d073 = $(`<div id="html_d853504ad9a9d0b8fe32c1973374d073" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Smart Village</h4>                 <b>Type:</b> Business<br>                 <b>ID:</b> F7             </div>             </div>`)[0];
+                popup_9cf5c3d4e7f385d683e49dac9f4c60ff.setContent(html_d853504ad9a9d0b8fe32c1973374d073);
+            
+        
+
+        marker_69b00d0418229e19f235cfa916f4897b.bindPopup(popup_9cf5c3d4e7f385d683e49dac9f4c60ff)
+        ;
+
+        
+    
+    
+            marker_69b00d0418229e19f235cfa916f4897b.bindTooltip(
+                `<div>
+                     Smart Village
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_69b00d0418229e19f235cfa916f4897b.setIcon(icon_96a6ded1b50104aa89f949ba50d76d06);
+            
+    
+            var marker_fc8251c3cd164cd868b9d5f01cc2646f = L.marker(
+                [30.03, 31.4],
+                {
+}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+            var icon_e6272b5c639205d7dc38941a0cb7b182 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3e2612bd974d8db10e6e84738c9e8aea = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b71a338bccc990b75da62cee974a5eea = $(`<div id="html_b71a338bccc990b75da62cee974a5eea" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Cairo Festival City</h4>                 <b>Type:</b> Commercial<br>                 <b>ID:</b> F8             </div>             </div>`)[0];
+                popup_3e2612bd974d8db10e6e84738c9e8aea.setContent(html_b71a338bccc990b75da62cee974a5eea);
+            
+        
+
+        marker_fc8251c3cd164cd868b9d5f01cc2646f.bindPopup(popup_3e2612bd974d8db10e6e84738c9e8aea)
+        ;
+
+        
+    
+    
+            marker_fc8251c3cd164cd868b9d5f01cc2646f.bindTooltip(
+                `<div>
+                     Cairo Festival City
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fc8251c3cd164cd868b9d5f01cc2646f.setIcon(icon_e6272b5c639205d7dc38941a0cb7b182);
+            
+    
+            var marker_06e68f7b0ce7b39aab0666bb1190ab03 = L.marker(
+                [30.03, 31.23],
+                {
+}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+            var icon_0c7622ceaf52740f807b3f65ae818c3d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b3dd539b2abc764646c1571ffbb002c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e7e83bfa6e5b9891e44870378265090d = $(`<div id="html_e7e83bfa6e5b9891e44870378265090d" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Qasr El Aini Hospital</h4>                 <b>Type:</b> Medical<br>                 <b>ID:</b> F9             </div>             </div>`)[0];
+                popup_8b3dd539b2abc764646c1571ffbb002c.setContent(html_e7e83bfa6e5b9891e44870378265090d);
+            
+        
+
+        marker_06e68f7b0ce7b39aab0666bb1190ab03.bindPopup(popup_8b3dd539b2abc764646c1571ffbb002c)
+        ;
+
+        
+    
+    
+            marker_06e68f7b0ce7b39aab0666bb1190ab03.bindTooltip(
+                `<div>
+                     Qasr El Aini Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_06e68f7b0ce7b39aab0666bb1190ab03.setIcon(icon_0c7622ceaf52740f807b3f65ae818c3d);
+            
+    
+            var marker_165f053df48c0ca6c30dd7f1b9df25c8 = L.marker(
+                [29.95, 31.25],
+                {
+}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+            var icon_2a11fa3c1823f2f6d9316ebc1b324fd6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_526965f3bf9b5a7e942f2b26a44380f5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c1d81b2915642a6d4f66b26c13d4e6ed = $(`<div id="html_c1d81b2915642a6d4f66b26c13d4e6ed" style="width: 100.0%; height: 100.0%;">             <div style='min-width: 200px'>                 <h4>Maadi Military Hospital</h4>                 <b>Type:</b> Medical<br>                 <b>ID:</b> F10             </div>             </div>`)[0];
+                popup_526965f3bf9b5a7e942f2b26a44380f5.setContent(html_c1d81b2915642a6d4f66b26c13d4e6ed);
+            
+        
+
+        marker_165f053df48c0ca6c30dd7f1b9df25c8.bindPopup(popup_526965f3bf9b5a7e942f2b26a44380f5)
+        ;
+
+        
+    
+    
+            marker_165f053df48c0ca6c30dd7f1b9df25c8.bindTooltip(
+                `<div>
+                     Maadi Military Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_165f053df48c0ca6c30dd7f1b9df25c8.setIcon(icon_2a11fa3c1823f2f6d9316ebc1b324fd6);
+            
+    
+            var poly_line_16fbeaca1e41cd11f8a72ef9c4108b3f = L.polyline(
+                [[29.96, 31.25], [29.85, 31.33]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_859686be87d442f423eecd5577379b5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c19a301ad7b616460f972c29f6ca9e6 = $(`<div id="html_4c19a301ad7b616460f972c29f6ca9e6" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M1<br>                 <b>Daily Passengers:</b> 1,500,000             </div>             </div>`)[0];
+                popup_859686be87d442f423eecd5577379b5e.setContent(html_4c19a301ad7b616460f972c29f6ca9e6);
+            
+        
+
+        poly_line_16fbeaca1e41cd11f8a72ef9c4108b3f.bindPopup(popup_859686be87d442f423eecd5577379b5e)
+        ;
+
+        
+    
+    
+            var poly_line_b6d9f5a9b6be3aef30160a14eba4859a = L.polyline(
+                [[29.96, 31.25], [30.04, 31.24]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_e9944a6cfe807a4a70645922a4891f4f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15d6d68b7ee64b6e1ad2a60208193d83 = $(`<div id="html_15d6d68b7ee64b6e1ad2a60208193d83" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M1<br>                 <b>Daily Passengers:</b> 1,500,000             </div>             </div>`)[0];
+                popup_e9944a6cfe807a4a70645922a4891f4f.setContent(html_15d6d68b7ee64b6e1ad2a60208193d83);
+            
+        
+
+        poly_line_b6d9f5a9b6be3aef30160a14eba4859a.bindPopup(popup_e9944a6cfe807a4a70645922a4891f4f)
+        ;
+
+        
+    
+    
+            var poly_line_b9bb397bee377d4a83234c2d321fd333 = L.polyline(
+                [[30.04, 31.24], [29.96, 31.25]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_cea371d13003a9bb74e7b2d235ae3987 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e3e0d09e043a39e8bcb72e5bc211bef = $(`<div id="html_2e3e0d09e043a39e8bcb72e5bc211bef" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M1<br>                 <b>Daily Passengers:</b> 1,500,000             </div>             </div>`)[0];
+                popup_cea371d13003a9bb74e7b2d235ae3987.setContent(html_2e3e0d09e043a39e8bcb72e5bc211bef);
+            
+        
+
+        poly_line_b9bb397bee377d4a83234c2d321fd333.bindPopup(popup_cea371d13003a9bb74e7b2d235ae3987)
+        ;
+
+        
+    
+    
+            var poly_line_e8c21bb138de1460a23ad0b5e1885835 = L.polyline(
+                [[30.04, 31.24], [30.06, 31.25]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_0dc6e4f12517fa23f3da927f281002ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb3fbe22dea7af5c17ffcd3bc95e66cb = $(`<div id="html_fb3fbe22dea7af5c17ffcd3bc95e66cb" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M1<br>                 <b>Daily Passengers:</b> 1,500,000             </div>             </div>`)[0];
+                popup_0dc6e4f12517fa23f3da927f281002ae.setContent(html_fb3fbe22dea7af5c17ffcd3bc95e66cb);
+            
+        
+
+        poly_line_e8c21bb138de1460a23ad0b5e1885835.bindPopup(popup_0dc6e4f12517fa23f3da927f281002ae)
+        ;
+
+        
+    
+    
+            var poly_line_416055bb7edbf476245e1d4c2fc56007 = L.polyline(
+                [[30.11, 31.24], [30.06, 31.25]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_279b948812a704bc94c6cbbbbf5b0add = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9febeadd078ad6f58812c1828afe04b0 = $(`<div id="html_9febeadd078ad6f58812c1828afe04b0" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M1<br>                 <b>Daily Passengers:</b> 1,500,000             </div>             </div>`)[0];
+                popup_279b948812a704bc94c6cbbbbf5b0add.setContent(html_9febeadd078ad6f58812c1828afe04b0);
+            
+        
+
+        poly_line_416055bb7edbf476245e1d4c2fc56007.bindPopup(popup_279b948812a704bc94c6cbbbbf5b0add)
+        ;
+
+        
+    
+    
+            var poly_line_cb377694d88c6fac7d65d394a4fab103 = L.polyline(
+                [[29.85, 31.33], [29.96, 31.25]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_252266629e61c1acea049b2a120e53f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9beae4399b314ac5060b285e3fc61a1a = $(`<div id="html_9beae4399b314ac5060b285e3fc61a1a" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M1<br>                 <b>Daily Passengers:</b> 1,500,000             </div>             </div>`)[0];
+                popup_252266629e61c1acea049b2a120e53f7.setContent(html_9beae4399b314ac5060b285e3fc61a1a);
+            
+        
+
+        poly_line_cb377694d88c6fac7d65d394a4fab103.bindPopup(popup_252266629e61c1acea049b2a120e53f7)
+        ;
+
+        
+    
+    
+            var poly_line_3073447bf4bb4a622fda9eec1b8a24dd = L.polyline(
+                [[30.06, 31.25], [30.04, 31.24]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_a163243113bb15e6b30c3b66e8f93d38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17b270f78e3d7ee2ee8a7ceac96f9d01 = $(`<div id="html_17b270f78e3d7ee2ee8a7ceac96f9d01" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M1<br>                 <b>Daily Passengers:</b> 1,500,000             </div>             </div>`)[0];
+                popup_a163243113bb15e6b30c3b66e8f93d38.setContent(html_17b270f78e3d7ee2ee8a7ceac96f9d01);
+            
+        
+
+        poly_line_3073447bf4bb4a622fda9eec1b8a24dd.bindPopup(popup_a163243113bb15e6b30c3b66e8f93d38)
+        ;
+
+        
+    
+    
+            var poly_line_b0c7fcc6f3e5072a658664b9332131ae = L.polyline(
+                [[30.06, 31.25], [30.11, 31.24]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_756a1c94f94fc7f7dece05349a573f89 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b23b737edfc0a11932a6797e2a69713f = $(`<div id="html_b23b737edfc0a11932a6797e2a69713f" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M1<br>                 <b>Daily Passengers:</b> 1,500,000             </div>             </div>`)[0];
+                popup_756a1c94f94fc7f7dece05349a573f89.setContent(html_b23b737edfc0a11932a6797e2a69713f);
+            
+        
+
+        poly_line_b0c7fcc6f3e5072a658664b9332131ae.bindPopup(popup_756a1c94f94fc7f7dece05349a573f89)
+        ;
+
+        
+    
+    
+            var poly_line_bb29d9ac3f1611ebb60f68adb44dcf57 = L.polyline(
+                [[30.04, 31.24], [30.06, 31.25]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_84b56cfdef119b19bd28c733aff2b905 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_303bc8ea270281a10c5f42f60b904398 = $(`<div id="html_303bc8ea270281a10c5f42f60b904398" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M2<br>                 <b>Daily Passengers:</b> 1,200,000             </div>             </div>`)[0];
+                popup_84b56cfdef119b19bd28c733aff2b905.setContent(html_303bc8ea270281a10c5f42f60b904398);
+            
+        
+
+        poly_line_bb29d9ac3f1611ebb60f68adb44dcf57.bindPopup(popup_84b56cfdef119b19bd28c733aff2b905)
+        ;
+
+        
+    
+    
+            var poly_line_ee611ec946118512662d71c4ec07ecd2 = L.polyline(
+                [[30.04, 31.24], [30.03, 31.21]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_863d8f56f695471ba151e1b1a62dd730 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62ae181bff86d1d2225a07982c900336 = $(`<div id="html_62ae181bff86d1d2225a07982c900336" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M2<br>                 <b>Daily Passengers:</b> 1,200,000             </div>             </div>`)[0];
+                popup_863d8f56f695471ba151e1b1a62dd730.setContent(html_62ae181bff86d1d2225a07982c900336);
+            
+        
+
+        poly_line_ee611ec946118512662d71c4ec07ecd2.bindPopup(popup_863d8f56f695471ba151e1b1a62dd730)
+        ;
+
+        
+    
+    
+            var poly_line_a0d5a611193d820d360f470771b8eec4 = L.polyline(
+                [[29.99, 31.21], [30.03, 31.21]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_17a8311a3a71cf15782614b0d9251afd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f079663f4e915d8d1773a218a0cdcb0 = $(`<div id="html_6f079663f4e915d8d1773a218a0cdcb0" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M2<br>                 <b>Daily Passengers:</b> 1,200,000             </div>             </div>`)[0];
+                popup_17a8311a3a71cf15782614b0d9251afd.setContent(html_6f079663f4e915d8d1773a218a0cdcb0);
+            
+        
+
+        poly_line_a0d5a611193d820d360f470771b8eec4.bindPopup(popup_17a8311a3a71cf15782614b0d9251afd)
+        ;
+
+        
+    
+    
+            var poly_line_f41ff33cc4c63540dfa58d3d103d05d3 = L.polyline(
+                [[30.03, 31.21], [30.04, 31.24]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_0b7c6deccf547be7b17d46ad27ba14a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7d948a2d7d6ae64a513cd2aa8a33859 = $(`<div id="html_c7d948a2d7d6ae64a513cd2aa8a33859" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M2<br>                 <b>Daily Passengers:</b> 1,200,000             </div>             </div>`)[0];
+                popup_0b7c6deccf547be7b17d46ad27ba14a6.setContent(html_c7d948a2d7d6ae64a513cd2aa8a33859);
+            
+        
+
+        poly_line_f41ff33cc4c63540dfa58d3d103d05d3.bindPopup(popup_0b7c6deccf547be7b17d46ad27ba14a6)
+        ;
+
+        
+    
+    
+            var poly_line_86b113433d170fb309fa719ea892e6f8 = L.polyline(
+                [[30.03, 31.21], [29.99, 31.21]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_813e18d7a8d0f5e262274d749be2f38f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b952a64b2a6b1c9ecb0068c4f8b97895 = $(`<div id="html_b952a64b2a6b1c9ecb0068c4f8b97895" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M2<br>                 <b>Daily Passengers:</b> 1,200,000             </div>             </div>`)[0];
+                popup_813e18d7a8d0f5e262274d749be2f38f.setContent(html_b952a64b2a6b1c9ecb0068c4f8b97895);
+            
+        
+
+        poly_line_86b113433d170fb309fa719ea892e6f8.bindPopup(popup_813e18d7a8d0f5e262274d749be2f38f)
+        ;
+
+        
+    
+    
+            var poly_line_8e593757cfdb4aa691bb1b2e85911d57 = L.polyline(
+                [[30.11, 31.24], [30.06, 31.25]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_cffc5cbfc66ae76c66b1ae7938a45e21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32e0524b3c64f04e40ad017016e3bd93 = $(`<div id="html_32e0524b3c64f04e40ad017016e3bd93" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M2<br>                 <b>Daily Passengers:</b> 1,200,000             </div>             </div>`)[0];
+                popup_cffc5cbfc66ae76c66b1ae7938a45e21.setContent(html_32e0524b3c64f04e40ad017016e3bd93);
+            
+        
+
+        poly_line_8e593757cfdb4aa691bb1b2e85911d57.bindPopup(popup_cffc5cbfc66ae76c66b1ae7938a45e21)
+        ;
+
+        
+    
+    
+            var poly_line_39d00bacf892c9f957a4cb87c4338fbd = L.polyline(
+                [[30.06, 31.25], [30.04, 31.24]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_f01db7bbc4cd3a7ca08effba15067779 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f71ac5a41d0f60e7786f5b27a4994a61 = $(`<div id="html_f71ac5a41d0f60e7786f5b27a4994a61" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M2<br>                 <b>Daily Passengers:</b> 1,200,000             </div>             </div>`)[0];
+                popup_f01db7bbc4cd3a7ca08effba15067779.setContent(html_f71ac5a41d0f60e7786f5b27a4994a61);
+            
+        
+
+        poly_line_39d00bacf892c9f957a4cb87c4338fbd.bindPopup(popup_f01db7bbc4cd3a7ca08effba15067779)
+        ;
+
+        
+    
+    
+            var poly_line_6d66ee745c89c6ece7579ce0b302e482 = L.polyline(
+                [[30.06, 31.25], [30.11, 31.24]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_8d11922f91e15cd02aed4516848d578d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d371c5f54e3bd5202dee05f7be646fc5 = $(`<div id="html_d371c5f54e3bd5202dee05f7be646fc5" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M2<br>                 <b>Daily Passengers:</b> 1,200,000             </div>             </div>`)[0];
+                popup_8d11922f91e15cd02aed4516848d578d.setContent(html_d371c5f54e3bd5202dee05f7be646fc5);
+            
+        
+
+        poly_line_6d66ee745c89c6ece7579ce0b302e482.bindPopup(popup_8d11922f91e15cd02aed4516848d578d)
+        ;
+
+        
+    
+    
+            var poly_line_df9bf1d00199ee077fd6156906a67dd4 = L.polyline(
+                [[30.06, 31.34], [30.09, 31.32]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_b48a20608024dbd96d362980db67d6d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39cf1d50388f30f07a5f604fd27c9671 = $(`<div id="html_39cf1d50388f30f07a5f604fd27c9671" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M3<br>                 <b>Daily Passengers:</b> 800,000             </div>             </div>`)[0];
+                popup_b48a20608024dbd96d362980db67d6d5.setContent(html_39cf1d50388f30f07a5f604fd27c9671);
+            
+        
+
+        poly_line_df9bf1d00199ee077fd6156906a67dd4.bindPopup(popup_b48a20608024dbd96d362980db67d6d5)
+        ;
+
+        
+    
+    
+            var poly_line_63ab60b8f8b7f4e5a71ccbc6de7cb01c = L.polyline(
+                [[30.06, 31.34], [30.04, 31.24]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_81a113cc7756e207b3a8370fd200caa1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e485bb2b94a7e7cf1def1779a2008990 = $(`<div id="html_e485bb2b94a7e7cf1def1779a2008990" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M3<br>                 <b>Daily Passengers:</b> 800,000             </div>             </div>`)[0];
+                popup_81a113cc7756e207b3a8370fd200caa1.setContent(html_e485bb2b94a7e7cf1def1779a2008990);
+            
+        
+
+        poly_line_63ab60b8f8b7f4e5a71ccbc6de7cb01c.bindPopup(popup_81a113cc7756e207b3a8370fd200caa1)
+        ;
+
+        
+    
+    
+            var poly_line_b80e4d2a3d00dc472c95224e53668699 = L.polyline(
+                [[30.04, 31.24], [30.06, 31.34]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_2bee38fb8af170b2b13c7467dd115c55 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94aac9dc25e2981ba86aae14508c9fb8 = $(`<div id="html_94aac9dc25e2981ba86aae14508c9fb8" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M3<br>                 <b>Daily Passengers:</b> 800,000             </div>             </div>`)[0];
+                popup_2bee38fb8af170b2b13c7467dd115c55.setContent(html_94aac9dc25e2981ba86aae14508c9fb8);
+            
+        
+
+        poly_line_b80e4d2a3d00dc472c95224e53668699.bindPopup(popup_2bee38fb8af170b2b13c7467dd115c55)
+        ;
+
+        
+    
+    
+            var poly_line_c0b9cd829f22f0fc5791b5369ac5505c = L.polyline(
+                [[30.04, 31.24], [30.05, 31.2]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_e20dfff6fe6da1c0fde531663f40fc60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1dc186542e7b9c1644c08e1f7abbb779 = $(`<div id="html_1dc186542e7b9c1644c08e1f7abbb779" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M3<br>                 <b>Daily Passengers:</b> 800,000             </div>             </div>`)[0];
+                popup_e20dfff6fe6da1c0fde531663f40fc60.setContent(html_1dc186542e7b9c1644c08e1f7abbb779);
+            
+        
+
+        poly_line_c0b9cd829f22f0fc5791b5369ac5505c.bindPopup(popup_e20dfff6fe6da1c0fde531663f40fc60)
+        ;
+
+        
+    
+    
+            var poly_line_7989c98b259d78f1a65df30076cc0037 = L.polyline(
+                [[30.09, 31.32], [30.11, 31.41]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_6df1f6d8257e2d269e9d9ee0730a21bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ffa41e9693a4f510ebe09e3250ea45c = $(`<div id="html_7ffa41e9693a4f510ebe09e3250ea45c" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M3<br>                 <b>Daily Passengers:</b> 800,000             </div>             </div>`)[0];
+                popup_6df1f6d8257e2d269e9d9ee0730a21bb.setContent(html_7ffa41e9693a4f510ebe09e3250ea45c);
+            
+        
+
+        poly_line_7989c98b259d78f1a65df30076cc0037.bindPopup(popup_6df1f6d8257e2d269e9d9ee0730a21bb)
+        ;
+
+        
+    
+    
+            var poly_line_0b971b76d52c1db558d94fcc29c39d12 = L.polyline(
+                [[30.09, 31.32], [30.06, 31.34]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_8648446d52667826fe1a2fd04a4f0247 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27a6d13d841c32aef77106a403db08fe = $(`<div id="html_27a6d13d841c32aef77106a403db08fe" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M3<br>                 <b>Daily Passengers:</b> 800,000             </div>             </div>`)[0];
+                popup_8648446d52667826fe1a2fd04a4f0247.setContent(html_27a6d13d841c32aef77106a403db08fe);
+            
+        
+
+        poly_line_0b971b76d52c1db558d94fcc29c39d12.bindPopup(popup_8648446d52667826fe1a2fd04a4f0247)
+        ;
+
+        
+    
+    
+            var poly_line_1ba9771d75939eea27cb88f53e8172a5 = L.polyline(
+                [[30.05, 31.2], [30.04, 31.24]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_51bf3fbf661d29e650a6a29b3c08bc3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9e49bff3e3952fbcdefef59faf79b7b = $(`<div id="html_c9e49bff3e3952fbcdefef59faf79b7b" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M3<br>                 <b>Daily Passengers:</b> 800,000             </div>             </div>`)[0];
+                popup_51bf3fbf661d29e650a6a29b3c08bc3f.setContent(html_c9e49bff3e3952fbcdefef59faf79b7b);
+            
+        
+
+        poly_line_1ba9771d75939eea27cb88f53e8172a5.bindPopup(popup_51bf3fbf661d29e650a6a29b3c08bc3f)
+        ;
+
+        
+    
+    
+            var poly_line_417bddf3bc5388de706dd919de0e7114 = L.polyline(
+                [[30.11, 31.41], [30.09, 31.32]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_44ea09ee211fdeca44785e3e7269f39d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ff4b2c2be2159ba67e6e1176b089492 = $(`<div id="html_5ff4b2c2be2159ba67e6e1176b089492" style="width: 100.0%; height: 100.0%;">             <div>                 <b>Metro Line:</b> M3<br>                 <b>Daily Passengers:</b> 800,000             </div>             </div>`)[0];
+                popup_44ea09ee211fdeca44785e3e7269f39d.setContent(html_5ff4b2c2be2159ba67e6e1176b089492);
+            
+        
+
+        poly_line_417bddf3bc5388de706dd919de0e7114.bindPopup(popup_44ea09ee211fdeca44785e3e7269f39d)
+        ;
+
+        
+    
+    
+            var poly_line_27f4722206a6e0287f500dbab0c8a6d9 = L.polyline(
+                [[29.96, 31.25], [30.04, 31.24]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_e2701ce15a4d9232c6196204593bcfa2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4e9ba6b9ea4ff9fb7764d852c076e74 = $(`<div id="html_c4e9ba6b9ea4ff9fb7764d852c076e74" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B1<br>             <b>Daily Passengers:</b> 35,000<br>             <b>Buses Assigned:</b> 25         </div>         </div>`)[0];
+                popup_e2701ce15a4d9232c6196204593bcfa2.setContent(html_c4e9ba6b9ea4ff9fb7764d852c076e74);
+            
+        
+
+        poly_line_27f4722206a6e0287f500dbab0c8a6d9.bindPopup(popup_e2701ce15a4d9232c6196204593bcfa2)
+        ;
+
+        
+    
+    
+            var poly_line_f96288d556261516672fb4fad58dbffe = L.polyline(
+                [[29.96, 31.25], [29.99, 31.21]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_6a6805e59c1dc5a352956881cf0c737b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a2a6d270752b862ee1ca9e4ca5c2138 = $(`<div id="html_6a2a6d270752b862ee1ca9e4ca5c2138" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B9<br>             <b>Daily Passengers:</b> 39,000<br>             <b>Buses Assigned:</b> 28         </div>         </div>`)[0];
+                popup_6a6805e59c1dc5a352956881cf0c737b.setContent(html_6a2a6d270752b862ee1ca9e4ca5c2138);
+            
+        
+
+        poly_line_f96288d556261516672fb4fad58dbffe.bindPopup(popup_6a6805e59c1dc5a352956881cf0c737b)
+        ;
+
+        
+    
+    
+            var poly_line_c4241f0f3b21c8cf250d3e15b40613ed = L.polyline(
+                [[30.06, 31.34], [30.09, 31.32]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_64f980cdcf445899e9655830691036ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_860cc339abb31cd9b30bb0b0b5affc53 = $(`<div id="html_860cc339abb31cd9b30bb0b0b5affc53" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B3<br>             <b>Daily Passengers:</b> 28,000<br>             <b>Buses Assigned:</b> 20         </div>         </div>`)[0];
+                popup_64f980cdcf445899e9655830691036ff.setContent(html_860cc339abb31cd9b30bb0b0b5affc53);
+            
+        
+
+        poly_line_c4241f0f3b21c8cf250d3e15b40613ed.bindPopup(popup_64f980cdcf445899e9655830691036ff)
+        ;
+
+        
+    
+    
+            var poly_line_86bc4e7548a9bbd2dc9d0e61a7446b27 = L.polyline(
+                [[30.06, 31.34], [30.09, 31.32]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_d92f927255d33e1c82d3fba7cd3c7d3e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b675fee5e1b66b2b5617e6e722e709c = $(`<div id="html_8b675fee5e1b66b2b5617e6e722e709c" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B10<br>             <b>Daily Passengers:</b> 28,000<br>             <b>Buses Assigned:</b> 20         </div>         </div>`)[0];
+                popup_d92f927255d33e1c82d3fba7cd3c7d3e.setContent(html_8b675fee5e1b66b2b5617e6e722e709c);
+            
+        
+
+        poly_line_86bc4e7548a9bbd2dc9d0e61a7446b27.bindPopup(popup_d92f927255d33e1c82d3fba7cd3c7d3e)
+        ;
+
+        
+    
+    
+            var poly_line_24c8a4e5629e8bf2f86432f2d3ca167d = L.polyline(
+                [[30.06, 31.34], [30.04, 31.24]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_5d5a6c218288c4de0c0572a8e79e6b2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_798b1c98466def0b5fd897f97e745fd9 = $(`<div id="html_798b1c98466def0b5fd897f97e745fd9" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B4<br>             <b>Daily Passengers:</b> 31,000<br>             <b>Buses Assigned:</b> 22         </div>         </div>`)[0];
+                popup_5d5a6c218288c4de0c0572a8e79e6b2b.setContent(html_798b1c98466def0b5fd897f97e745fd9);
+            
+        
+
+        poly_line_24c8a4e5629e8bf2f86432f2d3ca167d.bindPopup(popup_5d5a6c218288c4de0c0572a8e79e6b2b)
+        ;
+
+        
+    
+    
+            var poly_line_b9a46e9c186712ad8eb468259b888801 = L.polyline(
+                [[30.04, 31.24], [30.06, 31.22]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_0949be465955eda63b79352b7bc09600 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_794432515d9085442867f0da37ab340a = $(`<div id="html_794432515d9085442867f0da37ab340a" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B1<br>             <b>Daily Passengers:</b> 35,000<br>             <b>Buses Assigned:</b> 25         </div>         </div>`)[0];
+                popup_0949be465955eda63b79352b7bc09600.setContent(html_794432515d9085442867f0da37ab340a);
+            
+        
+
+        poly_line_b9a46e9c186712ad8eb468259b888801.bindPopup(popup_0949be465955eda63b79352b7bc09600)
+        ;
+
+        
+    
+    
+            var poly_line_7997d07106cccd793c817fb34fced37d = L.polyline(
+                [[30.03, 31.47], [30.06, 31.49]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_acdf6aac04b60db56c70fd879bd700ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0893f03da0e70035a0c48305d6b68028 = $(`<div id="html_0893f03da0e70035a0c48305d6b68028" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B4<br>             <b>Daily Passengers:</b> 31,000<br>             <b>Buses Assigned:</b> 22         </div>         </div>`)[0];
+                popup_acdf6aac04b60db56c70fd879bd700ad.setContent(html_0893f03da0e70035a0c48305d6b68028);
+            
+        
+
+        poly_line_7997d07106cccd793c817fb34fced37d.bindPopup(popup_acdf6aac04b60db56c70fd879bd700ad)
+        ;
+
+        
+    
+    
+            var poly_line_ac3fbbf89aa76f5957e1045b86bbf191 = L.polyline(
+                [[30.03, 31.47], [30.06, 31.49]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_5848980774538d415aa43b679a9cc651 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7072bb8dbeda96391d30fe9ef50a0845 = $(`<div id="html_7072bb8dbeda96391d30fe9ef50a0845" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B7<br>             <b>Daily Passengers:</b> 21,000<br>             <b>Buses Assigned:</b> 15         </div>         </div>`)[0];
+                popup_5848980774538d415aa43b679a9cc651.setContent(html_7072bb8dbeda96391d30fe9ef50a0845);
+            
+        
+
+        poly_line_ac3fbbf89aa76f5957e1045b86bbf191.bindPopup(popup_5848980774538d415aa43b679a9cc651)
+        ;
+
+        
+    
+    
+            var poly_line_f1da3ceede7db931772d044f9d63c45b = L.polyline(
+                [[30.03, 31.47], [30.06, 31.34]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_62b59f7784d08b31b8b66f0b2d80dbd6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0281051ac03b1731715ec8b9091e66e3 = $(`<div id="html_0281051ac03b1731715ec8b9091e66e3" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B10<br>             <b>Daily Passengers:</b> 28,000<br>             <b>Buses Assigned:</b> 20         </div>         </div>`)[0];
+                popup_62b59f7784d08b31b8b66f0b2d80dbd6.setContent(html_0281051ac03b1731715ec8b9091e66e3);
+            
+        
+
+        poly_line_f1da3ceede7db931772d044f9d63c45b.bindPopup(popup_62b59f7784d08b31b8b66f0b2d80dbd6)
+        ;
+
+        
+    
+    
+            var poly_line_a69b1ee85ffdf7345f9043bcb57a8fa6 = L.polyline(
+                [[30.09, 31.32], [30.11, 31.41]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_4418ab14647d21d5142b82da38555d47 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0979e44be67f694858927574db9d2bd = $(`<div id="html_e0979e44be67f694858927574db9d2bd" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B3<br>             <b>Daily Passengers:</b> 28,000<br>             <b>Buses Assigned:</b> 20         </div>         </div>`)[0];
+                popup_4418ab14647d21d5142b82da38555d47.setContent(html_e0979e44be67f694858927574db9d2bd);
+            
+        
+
+        poly_line_a69b1ee85ffdf7345f9043bcb57a8fa6.bindPopup(popup_4418ab14647d21d5142b82da38555d47)
+        ;
+
+        
+    
+    
+            var poly_line_3ecc9b3c5af2be8f9912c26eec8c91e5 = L.polyline(
+                [[30.09, 31.32], [30.06, 31.34]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_8f0ec7b0d9c988966ed7ff2a198170f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1fe66e7ccc6be0c998955e50de5af70 = $(`<div id="html_a1fe66e7ccc6be0c998955e50de5af70" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B6<br>             <b>Daily Passengers:</b> 33,000<br>             <b>Buses Assigned:</b> 24         </div>         </div>`)[0];
+                popup_8f0ec7b0d9c988966ed7ff2a198170f4.setContent(html_a1fe66e7ccc6be0c998955e50de5af70);
+            
+        
+
+        poly_line_3ecc9b3c5af2be8f9912c26eec8c91e5.bindPopup(popup_8f0ec7b0d9c988966ed7ff2a198170f4)
+        ;
+
+        
+    
+    
+            var poly_line_8c34e2e2fcf58c5a9e06f7c5ceb059b9 = L.polyline(
+                [[30.06, 31.22], [30.05, 31.2]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_be76f71089b0714136ef2c8737be3bb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5954162fe6daedd5a39f0ad40ab657b9 = $(`<div id="html_5954162fe6daedd5a39f0ad40ab657b9" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B1<br>             <b>Daily Passengers:</b> 35,000<br>             <b>Buses Assigned:</b> 25         </div>         </div>`)[0];
+                popup_be76f71089b0714136ef2c8737be3bb2.setContent(html_5954162fe6daedd5a39f0ad40ab657b9);
+            
+        
+
+        poly_line_8c34e2e2fcf58c5a9e06f7c5ceb059b9.bindPopup(popup_be76f71089b0714136ef2c8737be3bb2)
+        ;
+
+        
+    
+    
+            var poly_line_06b67da4c7420dda48931b8b00aa5fd1 = L.polyline(
+                [[29.93, 30.98], [30.01, 30.94]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_a2b80fa1ce62ccb88d806795bebb52be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a5710286975f84d18def6cf5c6f55d4 = $(`<div id="html_6a5710286975f84d18def6cf5c6f55d4" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B2<br>             <b>Daily Passengers:</b> 42,000<br>             <b>Buses Assigned:</b> 30         </div>         </div>`)[0];
+                popup_a2b80fa1ce62ccb88d806795bebb52be.setContent(html_6a5710286975f84d18def6cf5c6f55d4);
+            
+        
+
+        poly_line_06b67da4c7420dda48931b8b00aa5fd1.bindPopup(popup_a2b80fa1ce62ccb88d806795bebb52be)
+        ;
+
+        
+    
+    
+            var poly_line_c490526d1077f812124192704fa8016d = L.polyline(
+                [[29.99, 31.21], [30.03, 31.21]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_bca890c3b56acf5dac05a2be41ba73af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16b9f1aa27de3816a2b3c1aaddc84a5f = $(`<div id="html_16b9f1aa27de3816a2b3c1aaddc84a5f" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B2<br>             <b>Daily Passengers:</b> 42,000<br>             <b>Buses Assigned:</b> 30         </div>         </div>`)[0];
+                popup_bca890c3b56acf5dac05a2be41ba73af.setContent(html_16b9f1aa27de3816a2b3c1aaddc84a5f);
+            
+        
+
+        poly_line_c490526d1077f812124192704fa8016d.bindPopup(popup_bca890c3b56acf5dac05a2be41ba73af)
+        ;
+
+        
+    
+    
+            var poly_line_0283011ac2f158035f57b68c98b0af37 = L.polyline(
+                [[29.99, 31.21], [30.03, 31.21]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_9d2f8c8b2a70626c63d50d0f8145587c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36ffdd66e7e379e277ce50c70f460f60 = $(`<div id="html_36ffdd66e7e379e277ce50c70f460f60" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B9<br>             <b>Daily Passengers:</b> 39,000<br>             <b>Buses Assigned:</b> 28         </div>         </div>`)[0];
+                popup_9d2f8c8b2a70626c63d50d0f8145587c.setContent(html_36ffdd66e7e379e277ce50c70f460f60);
+            
+        
+
+        poly_line_0283011ac2f158035f57b68c98b0af37.bindPopup(popup_9d2f8c8b2a70626c63d50d0f8145587c)
+        ;
+
+        
+    
+    
+            var poly_line_68003e8088e7201ab8b4541d84b48736 = L.polyline(
+                [[29.99, 31.21], [29.85, 31.33]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_d168eb11dd3ecf2c1e0a9d6235c10045 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97933c18361c4776bfd79a23624fdd52 = $(`<div id="html_97933c18361c4776bfd79a23624fdd52" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B5<br>             <b>Daily Passengers:</b> 25,000<br>             <b>Buses Assigned:</b> 18         </div>         </div>`)[0];
+                popup_d168eb11dd3ecf2c1e0a9d6235c10045.setContent(html_97933c18361c4776bfd79a23624fdd52);
+            
+        
+
+        poly_line_68003e8088e7201ab8b4541d84b48736.bindPopup(popup_d168eb11dd3ecf2c1e0a9d6235c10045)
+        ;
+
+        
+    
+    
+            var poly_line_8e567777a685558f93cb79b50753bb1e = L.polyline(
+                [[30.05, 31.2], [30.06, 31.22]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_9da15928c44106c83b0ce2fcec5cf79a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da4cf5ac6bd0055461320374c9750f39 = $(`<div id="html_da4cf5ac6bd0055461320374c9750f39" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B9<br>             <b>Daily Passengers:</b> 39,000<br>             <b>Buses Assigned:</b> 28         </div>         </div>`)[0];
+                popup_9da15928c44106c83b0ce2fcec5cf79a.setContent(html_da4cf5ac6bd0055461320374c9750f39);
+            
+        
+
+        poly_line_8e567777a685558f93cb79b50753bb1e.bindPopup(popup_9da15928c44106c83b0ce2fcec5cf79a)
+        ;
+
+        
+    
+    
+            var poly_line_f3e0504cdce40626217c58947318aeb9 = L.polyline(
+                [[30.03, 31.21], [30.04, 31.24]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_035b023039a61e128439e3edcb759a6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67cdd92ab3d22f84008f36a472701ce4 = $(`<div id="html_67cdd92ab3d22f84008f36a472701ce4" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B2<br>             <b>Daily Passengers:</b> 42,000<br>             <b>Buses Assigned:</b> 30         </div>         </div>`)[0];
+                popup_035b023039a61e128439e3edcb759a6a.setContent(html_67cdd92ab3d22f84008f36a472701ce4);
+            
+        
+
+        poly_line_f3e0504cdce40626217c58947318aeb9.bindPopup(popup_035b023039a61e128439e3edcb759a6a)
+        ;
+
+        
+    
+    
+            var poly_line_7597ab0db0ac69d93a29659805ad6770 = L.polyline(
+                [[30.03, 31.21], [30.05, 31.2]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_2f31d93a9e7dcede41b3f23815862911 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d59afabed755f863d6bebfdbfb39fc6c = $(`<div id="html_d59afabed755f863d6bebfdbfb39fc6c" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B9<br>             <b>Daily Passengers:</b> 39,000<br>             <b>Buses Assigned:</b> 28         </div>         </div>`)[0];
+                popup_2f31d93a9e7dcede41b3f23815862911.setContent(html_d59afabed755f863d6bebfdbfb39fc6c);
+            
+        
+
+        poly_line_7597ab0db0ac69d93a29659805ad6770.bindPopup(popup_2f31d93a9e7dcede41b3f23815862911)
+        ;
+
+        
+    
+    
+            var poly_line_7b671b561549eae90f6209872dbe6f72 = L.polyline(
+                [[30.11, 31.24], [30.09, 31.32]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_4ccb7d08d57e03e2f1e13a4a563311cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66a5faaeebbcb18850721f6924455913 = $(`<div id="html_66a5faaeebbcb18850721f6924455913" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B6<br>             <b>Daily Passengers:</b> 33,000<br>             <b>Buses Assigned:</b> 24         </div>         </div>`)[0];
+                popup_4ccb7d08d57e03e2f1e13a4a563311cf.setContent(html_66a5faaeebbcb18850721f6924455913);
+            
+        
+
+        poly_line_7b671b561549eae90f6209872dbe6f72.bindPopup(popup_4ccb7d08d57e03e2f1e13a4a563311cf)
+        ;
+
+        
+    
+    
+            var poly_line_7149d9eef1abd05df0282a2158dc4068 = L.polyline(
+                [[29.85, 31.33], [29.96, 31.25]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_1c569a06cd1435d9adbc6c7352a7297c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f63e4a3c09bc77b7a47e3b0080c2a16e = $(`<div id="html_f63e4a3c09bc77b7a47e3b0080c2a16e" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B5<br>             <b>Daily Passengers:</b> 25,000<br>             <b>Buses Assigned:</b> 18         </div>         </div>`)[0];
+                popup_1c569a06cd1435d9adbc6c7352a7297c.setContent(html_f63e4a3c09bc77b7a47e3b0080c2a16e);
+            
+        
+
+        poly_line_7149d9eef1abd05df0282a2158dc4068.bindPopup(popup_1c569a06cd1435d9adbc6c7352a7297c)
+        ;
+
+        
+    
+    
+            var poly_line_a6a6734eaa7e2958c339622a142c33ab = L.polyline(
+                [[30.02, 31.8], [30.03, 31.47]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_92793f61cad2746ff2a80bfa74013f0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8fe2b6996d61734508e8224586de50d9 = $(`<div id="html_8fe2b6996d61734508e8224586de50d9" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B7<br>             <b>Daily Passengers:</b> 21,000<br>             <b>Buses Assigned:</b> 15         </div>         </div>`)[0];
+                popup_92793f61cad2746ff2a80bfa74013f0a.setContent(html_8fe2b6996d61734508e8224586de50d9);
+            
+        
+
+        poly_line_a6a6734eaa7e2958c339622a142c33ab.bindPopup(popup_92793f61cad2746ff2a80bfa74013f0a)
+        ;
+
+        
+    
+    
+            var poly_line_b28119cafdf16b45e4230da4940748ab = L.polyline(
+                [[30.06, 31.49], [30.06, 31.34]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_605cec66a8b5f20ed04f56a9d7e9c575 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51083abd5b3796d6d5a5703f89ed4408 = $(`<div id="html_51083abd5b3796d6d5a5703f89ed4408" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B4<br>             <b>Daily Passengers:</b> 31,000<br>             <b>Buses Assigned:</b> 22         </div>         </div>`)[0];
+                popup_605cec66a8b5f20ed04f56a9d7e9c575.setContent(html_51083abd5b3796d6d5a5703f89ed4408);
+            
+        
+
+        poly_line_b28119cafdf16b45e4230da4940748ab.bindPopup(popup_605cec66a8b5f20ed04f56a9d7e9c575)
+        ;
+
+        
+    
+    
+            var poly_line_b42d1156a2004beadfdd142ba3f2cc7b = L.polyline(
+                [[30.01, 30.94], [29.99, 31.21]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_47ce03aec769c634bf7ea59d84bac94d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_015b0b296f160ba3235c73df21ca2b24 = $(`<div id="html_015b0b296f160ba3235c73df21ca2b24" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B2<br>             <b>Daily Passengers:</b> 42,000<br>             <b>Buses Assigned:</b> 30         </div>         </div>`)[0];
+                popup_47ce03aec769c634bf7ea59d84bac94d.setContent(html_015b0b296f160ba3235c73df21ca2b24);
+            
+        
+
+        poly_line_b42d1156a2004beadfdd142ba3f2cc7b.bindPopup(popup_47ce03aec769c634bf7ea59d84bac94d)
+        ;
+
+        
+    
+    
+            var poly_line_7385bf69c32503785906f9daf2cb5115 = L.polyline(
+                [[30.01, 30.94], [29.93, 30.98]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_c533608fe9fb6284c8ecbd6f82ec4ea3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0cbd12747a990f3a58fe4d9b3fee056f = $(`<div id="html_0cbd12747a990f3a58fe4d9b3fee056f" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B8<br>             <b>Daily Passengers:</b> 17,000<br>             <b>Buses Assigned:</b> 12         </div>         </div>`)[0];
+                popup_c533608fe9fb6284c8ecbd6f82ec4ea3.setContent(html_0cbd12747a990f3a58fe4d9b3fee056f);
+            
+        
+
+        poly_line_7385bf69c32503785906f9daf2cb5115.bindPopup(popup_c533608fe9fb6284c8ecbd6f82ec4ea3)
+        ;
+
+        
+    
+    
+            var poly_line_531f4d63f60fe324622e07d1b8c1b487 = L.polyline(
+                [[30.07, 30.97], [30.01, 30.94]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_548bf92cc4a58a22190c27f36a560b5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1fb564ce2a25f7220233f868d64d3594 = $(`<div id="html_1fb564ce2a25f7220233f868d64d3594" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B8<br>             <b>Daily Passengers:</b> 17,000<br>             <b>Buses Assigned:</b> 12         </div>         </div>`)[0];
+                popup_548bf92cc4a58a22190c27f36a560b5e.setContent(html_1fb564ce2a25f7220233f868d64d3594);
+            
+        
+
+        poly_line_531f4d63f60fe324622e07d1b8c1b487.bindPopup(popup_548bf92cc4a58a22190c27f36a560b5e)
+        ;
+
+        
+    
+    
+            var poly_line_4f59c2c260bcaf6adc3c414377ad6393 = L.polyline(
+                [[30.03, 31.4], [30.03, 31.47]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+        
+    
+        var popup_126d594d99e24872ebf0fdce1ea82e6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_acc11b01d4c093495548d1e70e1c5bf2 = $(`<div id="html_acc11b01d4c093495548d1e70e1c5bf2" style="width: 100.0%; height: 100.0%;">         <div>             <b>Bus Route:</b> B10<br>             <b>Daily Passengers:</b> 28,000<br>             <b>Buses Assigned:</b> 20         </div>         </div>`)[0];
+                popup_126d594d99e24872ebf0fdce1ea82e6e.setContent(html_acc11b01d4c093495548d1e70e1c5bf2);
+            
+        
+
+        poly_line_4f59c2c260bcaf6adc3c414377ad6393.bindPopup(popup_126d594d99e24872ebf0fdce1ea82e6e)
+        ;
+
+        
+    
+    
+            var layer_control_88c491828ec125611d4bdeca96b32422_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_1cad87e27e09e3023cc140d4df1d3064,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_88c491828ec125611d4bdeca96b32422 = L.control.layers(
+                layer_control_88c491828ec125611d4bdeca96b32422_layers.base_layers,
+                layer_control_88c491828ec125611d4bdeca96b32422_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_de2ecdbbe35c6e66a041e3dcc5534ff0);
+
+        
+</script>
+</html>

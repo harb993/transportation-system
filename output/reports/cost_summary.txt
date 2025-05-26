@@ -1,0 +1,136 @@
+Infrastructure Analysis Report
+===========================
+
+Network Overview:
+- Total nodes: 25
+- Total edges: 42
+
+Potential Road Costs Summary
+---------------------------
+Number of potential road projects: 15
+Total estimated cost: 9770.00 M EGP
+Average cost per project: 651.33 M EGP
+Total distance of potential roads: 494.40 km
+Average distance per road: 32.96 km
+
+Top 3 Most Expensive Potential Roads:
+1. From 7 to 13:
+   Cost: 1600.00 M EGP
+   Distance: 82.30 km
+   Estimated Capacity: 4000 vehicles/hour
+
+2. From 11 to 13:
+   Cost: 1250.00 M EGP
+   Distance: 62.10 km
+   Estimated Capacity: 4200 vehicles/hour
+
+3. From 3 to 13:
+   Cost: 1100.00 M EGP
+   Distance: 56.70 km
+   Estimated Capacity: 4500 vehicles/hour
+
+
+Minimum Spanning Tree Analysis
+-----------------------------
+Number of edges in MST: 18
+Total construction cost: 0.00 M EGP
+Total network distance: 157.90 km
+MST Edge Details:
+1. From 1 to 8:
+   Cost: 0.00 M EGP
+   Distance: 6.20 km
+   Type: existing_road
+
+2. From 1 to 12:
+   Cost: 0.00 M EGP
+   Distance: 12.70 km
+   Type: existing_road
+
+3. From 2 to 5:
+   Cost: 0.00 M EGP
+   Distance: 4.00 km
+   Type: existing_road
+
+4. From 2 to 3:
+   Cost: 0.00 M EGP
+   Distance: 5.90 km
+   Type: existing_road
+
+5. From 2 to 4:
+   Cost: 0.00 M EGP
+   Distance: 15.20 km
+   Type: existing_road
+
+6. From 3 to F2:
+   Cost: 0.00 M EGP
+   Distance: 2.50 km
+   Type: existing_road
+
+7. From 3 to 6:
+   Cost: 0.00 M EGP
+   Distance: 3.20 km
+   Type: existing_road
+
+8. From 4 to 14:
+   Cost: 0.00 M EGP
+   Distance: 5.30 km
+   Type: existing_road
+
+9. From 4 to F8:
+   Cost: 0.00 M EGP
+   Distance: 6.10 km
+   Type: existing_road
+
+10. From 5 to F1:
+   Cost: 0.00 M EGP
+   Distance: 7.50 km
+   Type: existing_road
+
+11. From 6 to 9:
+   Cost: 0.00 M EGP
+   Distance: 2.20 km
+   Type: existing_road
+
+12. From 7 to 15:
+   Cost: 0.00 M EGP
+   Distance: 9.80 km
+   Type: existing_road
+
+13. From 7 to 8:
+   Cost: 0.00 M EGP
+   Distance: 24.50 km
+   Type: existing_road
+
+14. From 8 to 10:
+   Cost: 0.00 M EGP
+   Distance: 3.30 km
+   Type: existing_road
+
+15. From 9 to 10:
+   Cost: 0.00 M EGP
+   Distance: 2.10 km
+   Type: existing_road
+
+16. From 11 to F2:
+   Cost: 0.00 M EGP
+   Distance: 3.60 km
+   Type: existing_road
+
+17. From 13 to 14:
+   Cost: 0.00 M EGP
+   Distance: 35.50 km
+   Type: existing_road
+
+18. From 15 to F7:
+   Cost: 0.00 M EGP
+   Distance: 8.30 km
+   Type: existing_road
+
+Isolated Nodes:
+- F10 (Maadi Military Hospital)
+- F3 (Cairo University)
+- F4 (Al-Azhar University)
+- F5 (Egyptian Museum)
+- F6 (Cairo International Stadium)
+- F9 (Qasr El Aini Hospital)
+Total isolated nodes: 6

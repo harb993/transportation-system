@@ -1,0 +1,470 @@
+{
+    "nodes": [
+        {
+            "ID": 1,
+            "Name": "Maadi",
+            "Population": 250000,
+            "Type": "Residential",
+            "X_coordinate": 31.25,
+            "Y_coordinate": 29.96
+        },
+        {
+            "ID": 2,
+            "Name": "Nasr City",
+            "Population": 500000,
+            "Type": "Mixed",
+            "X_coordinate": 31.34,
+            "Y_coordinate": 30.06
+        },
+        {
+            "ID": 3,
+            "Name": "Downtown Cairo",
+            "Population": 100000,
+            "Type": "Business",
+            "X_coordinate": 31.24,
+            "Y_coordinate": 30.04
+        },
+        {
+            "ID": 4,
+            "Name": "New Cairo",
+            "Population": 300000,
+            "Type": "Residential",
+            "X_coordinate": 31.47,
+            "Y_coordinate": 30.03
+        },
+        {
+            "ID": 5,
+            "Name": "Heliopolis",
+            "Population": 200000,
+            "Type": "Mixed",
+            "X_coordinate": 31.32,
+            "Y_coordinate": 30.09
+        },
+        {
+            "ID": 6,
+            "Name": "Zamalek",
+            "Population": 50000,
+            "Type": "Residential",
+            "X_coordinate": 31.22,
+            "Y_coordinate": 30.06
+        },
+        {
+            "ID": 7,
+            "Name": "6th October City",
+            "Population": 400000,
+            "Type": "Mixed",
+            "X_coordinate": 30.98,
+            "Y_coordinate": 29.93
+        },
+        {
+            "ID": 8,
+            "Name": "Giza",
+            "Population": 550000,
+            "Type": "Mixed",
+            "X_coordinate": 31.21,
+            "Y_coordinate": 29.99
+        },
+        {
+            "ID": 9,
+            "Name": "Mohandessin",
+            "Population": 180000,
+            "Type": "Business",
+            "X_coordinate": 31.2,
+            "Y_coordinate": 30.05
+        },
+        {
+            "ID": 10,
+            "Name": "Dokki",
+            "Population": 220000,
+            "Type": "Mixed",
+            "X_coordinate": 31.21,
+            "Y_coordinate": 30.03
+        },
+        {
+            "ID": 11,
+            "Name": "Shubra",
+            "Population": 450000,
+            "Type": "Residential",
+            "X_coordinate": 31.24,
+            "Y_coordinate": 30.11
+        },
+        {
+            "ID": 12,
+            "Name": "Helwan",
+            "Population": 350000,
+            "Type": "Industrial",
+            "X_coordinate": 31.33,
+            "Y_coordinate": 29.85
+        },
+        {
+            "ID": 13,
+            "Name": "New Administrative Capital",
+            "Population": 50000,
+            "Type": "Government",
+            "X_coordinate": 31.8,
+            "Y_coordinate": 30.02
+        },
+        {
+            "ID": 14,
+            "Name": "Al Rehab",
+            "Population": 120000,
+            "Type": "Residential",
+            "X_coordinate": 31.49,
+            "Y_coordinate": 30.06
+        },
+        {
+            "ID": 15,
+            "Name": "Sheikh Zayed",
+            "Population": 150000,
+            "Type": "Residential",
+            "X_coordinate": 30.94,
+            "Y_coordinate": 30.01
+        }
+    ],
+    "edges": [
+        {
+            "FromID": "1",
+            "ToID": "3",
+            "Distance_km": 8.5,
+            "Current_Capacity_vehicles_hour": 3000,
+            "Condition_1_10": 7,
+            "status": "existing"
+        },
+        {
+            "FromID": "1",
+            "ToID": "8",
+            "Distance_km": 6.2,
+            "Current_Capacity_vehicles_hour": 2500,
+            "Condition_1_10": 6,
+            "status": "existing"
+        },
+        {
+            "FromID": "2",
+            "ToID": "3",
+            "Distance_km": 5.9,
+            "Current_Capacity_vehicles_hour": 2800,
+            "Condition_1_10": 8,
+            "status": "existing"
+        },
+        {
+            "FromID": "2",
+            "ToID": "5",
+            "Distance_km": 4.0,
+            "Current_Capacity_vehicles_hour": 3200,
+            "Condition_1_10": 9,
+            "status": "existing"
+        },
+        {
+            "FromID": "3",
+            "ToID": "5",
+            "Distance_km": 6.1,
+            "Current_Capacity_vehicles_hour": 3500,
+            "Condition_1_10": 7,
+            "status": "existing"
+        },
+        {
+            "FromID": "3",
+            "ToID": "6",
+            "Distance_km": 3.2,
+            "Current_Capacity_vehicles_hour": 2000,
+            "Condition_1_10": 8,
+            "status": "existing"
+        },
+        {
+            "FromID": "3",
+            "ToID": "9",
+            "Distance_km": 4.5,
+            "Current_Capacity_vehicles_hour": 2600,
+            "Condition_1_10": 6,
+            "status": "existing"
+        },
+        {
+            "FromID": "3",
+            "ToID": "10",
+            "Distance_km": 3.8,
+            "Current_Capacity_vehicles_hour": 2400,
+            "Condition_1_10": 7,
+            "status": "existing"
+        },
+        {
+            "FromID": "4",
+            "ToID": "2",
+            "Distance_km": 15.2,
+            "Current_Capacity_vehicles_hour": 3800,
+            "Condition_1_10": 9,
+            "status": "existing"
+        },
+        {
+            "FromID": "4",
+            "ToID": "14",
+            "Distance_km": 5.3,
+            "Current_Capacity_vehicles_hour": 3000,
+            "Condition_1_10": 10,
+            "status": "existing"
+        },
+        {
+            "FromID": "5",
+            "ToID": "11",
+            "Distance_km": 7.9,
+            "Current_Capacity_vehicles_hour": 3100,
+            "Condition_1_10": 7,
+            "status": "existing"
+        },
+        {
+            "FromID": "6",
+            "ToID": "9",
+            "Distance_km": 2.2,
+            "Current_Capacity_vehicles_hour": 1800,
+            "Condition_1_10": 8,
+            "status": "existing"
+        },
+        {
+            "FromID": "7",
+            "ToID": "8",
+            "Distance_km": 24.5,
+            "Current_Capacity_vehicles_hour": 3500,
+            "Condition_1_10": 8,
+            "status": "existing"
+        },
+        {
+            "FromID": "7",
+            "ToID": "15",
+            "Distance_km": 9.8,
+            "Current_Capacity_vehicles_hour": 3000,
+            "Condition_1_10": 9,
+            "status": "existing"
+        },
+        {
+            "FromID": "8",
+            "ToID": "10",
+            "Distance_km": 3.3,
+            "Current_Capacity_vehicles_hour": 2200,
+            "Condition_1_10": 7,
+            "status": "existing"
+        },
+        {
+            "FromID": "8",
+            "ToID": "12",
+            "Distance_km": 14.8,
+            "Current_Capacity_vehicles_hour": 2600,
+            "Condition_1_10": 5,
+            "status": "existing"
+        },
+        {
+            "FromID": "9",
+            "ToID": "10",
+            "Distance_km": 2.1,
+            "Current_Capacity_vehicles_hour": 1900,
+            "Condition_1_10": 7,
+            "status": "existing"
+        },
+        {
+            "FromID": "10",
+            "ToID": "11",
+            "Distance_km": 8.7,
+            "Current_Capacity_vehicles_hour": 2400,
+            "Condition_1_10": 6,
+            "status": "existing"
+        },
+        {
+            "FromID": "11",
+            "ToID": "F2",
+            "Distance_km": 3.6,
+            "Current_Capacity_vehicles_hour": 2200,
+            "Condition_1_10": 7,
+            "status": "existing"
+        },
+        {
+            "FromID": "12",
+            "ToID": "1",
+            "Distance_km": 12.7,
+            "Current_Capacity_vehicles_hour": 2800,
+            "Condition_1_10": 6,
+            "status": "existing"
+        },
+        {
+            "FromID": "13",
+            "ToID": "4",
+            "Distance_km": 45.0,
+            "Current_Capacity_vehicles_hour": 4000,
+            "Condition_1_10": 10,
+            "status": "existing"
+        },
+        {
+            "FromID": "14",
+            "ToID": "13",
+            "Distance_km": 35.5,
+            "Current_Capacity_vehicles_hour": 3800,
+            "Condition_1_10": 9,
+            "status": "existing"
+        },
+        {
+            "FromID": "15",
+            "ToID": "7",
+            "Distance_km": 9.8,
+            "Current_Capacity_vehicles_hour": 3000,
+            "Condition_1_10": 9,
+            "status": "existing"
+        },
+        {
+            "FromID": "F1",
+            "ToID": "5",
+            "Distance_km": 7.5,
+            "Current_Capacity_vehicles_hour": 3500,
+            "Condition_1_10": 9,
+            "status": "existing"
+        },
+        {
+            "FromID": "F1",
+            "ToID": "2",
+            "Distance_km": 9.2,
+            "Current_Capacity_vehicles_hour": 3200,
+            "Condition_1_10": 8,
+            "status": "existing"
+        },
+        {
+            "FromID": "F2",
+            "ToID": "3",
+            "Distance_km": 2.5,
+            "Current_Capacity_vehicles_hour": 2000,
+            "Condition_1_10": 7,
+            "status": "existing"
+        },
+        {
+            "FromID": "F7",
+            "ToID": "15",
+            "Distance_km": 8.3,
+            "Current_Capacity_vehicles_hour": 2800,
+            "Condition_1_10": 8,
+            "status": "existing"
+        },
+        {
+            "FromID": "F8",
+            "ToID": "4",
+            "Distance_km": 6.1,
+            "Current_Capacity_vehicles_hour": 3000,
+            "Condition_1_10": 9,
+            "status": "existing"
+        },
+        {
+            "FromID": "1",
+            "ToID": "4",
+            "Distance_km": 22.8,
+            "Estimated_Capacity_vehicles_hour": 4000,
+            "Construction_Cost_Million_EGP": 450,
+            "status": "potential"
+        },
+        {
+            "FromID": "1",
+            "ToID": "14",
+            "Distance_km": 25.3,
+            "Estimated_Capacity_vehicles_hour": 3800,
+            "Construction_Cost_Million_EGP": 500,
+            "status": "potential"
+        },
+        {
+            "FromID": "2",
+            "ToID": "13",
+            "Distance_km": 48.2,
+            "Estimated_Capacity_vehicles_hour": 4500,
+            "Construction_Cost_Million_EGP": 950,
+            "status": "potential"
+        },
+        {
+            "FromID": "3",
+            "ToID": "13",
+            "Distance_km": 56.7,
+            "Estimated_Capacity_vehicles_hour": 4500,
+            "Construction_Cost_Million_EGP": 1100,
+            "status": "potential"
+        },
+        {
+            "FromID": "5",
+            "ToID": "4",
+            "Distance_km": 16.8,
+            "Estimated_Capacity_vehicles_hour": 3500,
+            "Construction_Cost_Million_EGP": 320,
+            "status": "potential"
+        },
+        {
+            "FromID": "6",
+            "ToID": "8",
+            "Distance_km": 7.5,
+            "Estimated_Capacity_vehicles_hour": 2500,
+            "Construction_Cost_Million_EGP": 150,
+            "status": "potential"
+        },
+        {
+            "FromID": "7",
+            "ToID": "13",
+            "Distance_km": 82.3,
+            "Estimated_Capacity_vehicles_hour": 4000,
+            "Construction_Cost_Million_EGP": 1600,
+            "status": "potential"
+        },
+        {
+            "FromID": "9",
+            "ToID": "11",
+            "Distance_km": 6.9,
+            "Estimated_Capacity_vehicles_hour": 2800,
+            "Construction_Cost_Million_EGP": 140,
+            "status": "potential"
+        },
+        {
+            "FromID": "10",
+            "ToID": "F7",
+            "Distance_km": 27.4,
+            "Estimated_Capacity_vehicles_hour": 3200,
+            "Construction_Cost_Million_EGP": 550,
+            "status": "potential"
+        },
+        {
+            "FromID": "11",
+            "ToID": "13",
+            "Distance_km": 62.1,
+            "Estimated_Capacity_vehicles_hour": 4200,
+            "Construction_Cost_Million_EGP": 1250,
+            "status": "potential"
+        },
+        {
+            "FromID": "12",
+            "ToID": "14",
+            "Distance_km": 30.5,
+            "Estimated_Capacity_vehicles_hour": 3600,
+            "Construction_Cost_Million_EGP": 610,
+            "status": "potential"
+        },
+        {
+            "FromID": "14",
+            "ToID": "5",
+            "Distance_km": 18.2,
+            "Estimated_Capacity_vehicles_hour": 3300,
+            "Construction_Cost_Million_EGP": 360,
+            "status": "potential"
+        },
+        {
+            "FromID": "15",
+            "ToID": "9",
+            "Distance_km": 22.7,
+            "Estimated_Capacity_vehicles_hour": 3000,
+            "Construction_Cost_Million_EGP": 450,
+            "status": "potential"
+        },
+        {
+            "FromID": "F1",
+            "ToID": "13",
+            "Distance_km": 40.2,
+            "Estimated_Capacity_vehicles_hour": 4000,
+            "Construction_Cost_Million_EGP": 800,
+            "status": "potential"
+        },
+        {
+            "FromID": "F7",
+            "ToID": "9",
+            "Distance_km": 26.8,
+            "Estimated_Capacity_vehicles_hour": 3200,
+            "Construction_Cost_Million_EGP": 540,
+            "status": "potential"
+        }
+    ]
+}

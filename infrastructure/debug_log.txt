@@ -1,0 +1,26 @@
+Script started
+Checking road data file: c:\Users\abdoo\Desktop\transportation_system\data\road_data.json
+Checking facilities data file: c:\Users\abdoo\Desktop\transportation_system\data\facilities.json
+
+Loaded infrastructure graph successfully
+Graph: 25 nodes, 42 edges
+
+Initial graph edge composition:
+- Existing roads: 27
+- Potential roads: 15
+
+Found isolated nodes:
+  - F3
+  - F4
+  - F5
+  - F6
+  - F9
+  - F10
+
+Generating optimal MST...
+
+Optimal MST edge composition:
+- Existing roads: 18
+- Potential roads: 0
+
+Optimal MST map visualization saved to: C:\Users\abdoo\Desktop\transportation_system\infrastructure\out\optimal_mst_map.html
